@@ -1,4 +1,5 @@
 # Akselerator
+Пользователи проходят авторизацию
 ![3 Авторизация](https://user-images.githubusercontent.com/52165649/230760723-a743f118-f829-4ba9-941e-313d2b79c944.png)
 ![4 Главное меню](https://user-images.githubusercontent.com/52165649/230760733-8fc6ce59-2c64-40b3-9bc9-310e179b95e2.png)
 ![5 Теория1](https://user-images.githubusercontent.com/52165649/230760737-63b48f1c-bf0f-4943-bc37-fedb1dc7efa8.png)

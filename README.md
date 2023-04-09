@@ -6,6 +6,7 @@
 В теории содержится информация о необходимых библиотеках
 ![5 Теория1](https://user-images.githubusercontent.com/52165649/230760737-63b48f1c-bf0f-4943-bc37-fedb1dc7efa8.png)
 ![6 Теория2](https://user-images.githubusercontent.com/52165649/230760740-00f2e4b7-858d-4188-9856-54de71e55a93.png)
+Далее прописывается алгоритм выполнения задания
 ![7 Алгоритм 1](https://user-images.githubusercontent.com/52165649/230760742-c2a11d2e-8352-4d5a-96f0-d68279fdc97f.png)
 ![7 Алгоритм 2](https://user-images.githubusercontent.com/52165649/230760743-40903c7a-1466-4f55-b6f4-7460ace48a54.png)
 ![8 Алгоритм 3](https://user-images.githubusercontent.com/52165649/230760744-f5e6a34e-c9c1-4ca9-abcd-230c1decf516.png)

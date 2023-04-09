@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D4A6968-FE3A-436D-9BAE-37B7623F1043}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>УМК_Цифра</RootNamespace>
+    <AssemblyName>УМК_Цифра</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\иконка.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Prism, Version=8.1.97.5141, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
+      <HintPath>..\packages\Prism.Core.8.1.97\lib\net47\Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Algoritm.xaml.cs">
+      <DependentUpon>Algoritm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Algoritms\aOtrasl.xaml.cs">
+      <DependentUpon>aOtrasl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Algoritms\aSIZ.xaml.cs">
+      <DependentUpon>aSIZ.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Algoritms\mainpage.xaml.cs">
+      <DependentUpon>mainpage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bye.xaml.cs">
+      <DependentUpon>Bye.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control.xaml.cs">
+      <DependentUpon>Control.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\cmainpage.xaml.cs">
+      <DependentUpon>cmainpage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\cOtrasl.xaml.cs">
+      <DependentUpon>cOtrasl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\cSIZ.xaml.cs">
+      <DependentUpon>cSIZ.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs" />
+    <Compile Include="Result.xaml.cs">
+      <DependentUpon>Result.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Results\rmainpage.xaml.cs">
+      <DependentUpon>rmainpage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Results\rOtrasl.xaml.cs">
+      <DependentUpon>rOtrasl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Results\rSIZ.xaml.cs">
+      <DependentUpon>rSIZ.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Score.cs" />
+    <Compile Include="Teorya.xaml.cs">
+      <DependentUpon>Teorya.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Teoryas\tmainpage.xaml.cs">
+      <DependentUpon>tmainpage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Teoryas\tOtrasl.xaml.cs">
+      <DependentUpon>tOtrasl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Teoryas\tSIZ.xaml.cs">
+      <DependentUpon>tSIZ.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Algoritm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Algoritms\aOtrasl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Algoritms\aSIZ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Algoritms\mainpage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Bye.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Control.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\cmainpage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\cOtrasl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\cSIZ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Greetings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CloseWin.cs" />
+    <Compile Include="Greetings.xaml.cs">
+      <DependentUpon>Greetings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="myMessageBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Result.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Results\rmainpage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Results\rOtrasl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Results\rSIZ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Teorya.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Teoryas\tmainpage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Teoryas\tOtrasl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Teoryas\tSIZ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu.xaml.cs">
+      <DependentUpon>Menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="myMessageBox.xaml.cs">
+      <DependentUpon>myMessageBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Робот.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\скрин_меню.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\скрин_привет.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\конвейер\1 выбор отрасли.jpg" />
+    <Resource Include="Resources\конвейер\2 сиз.jpg" />
+    <Resource Include="Resources\конвейер\3 опасные зоны.jpg" />
+    <Resource Include="Resources\конвейер\6 Цветовая фильтрация.jpg" />
+    <Resource Include="Resources\конвейер\7 контроль качества.jpg" />
+    <Resource Include="Resources\конвейер\8 сборка по штрих-коду.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\контроль\10код.jpg" />
+    <Resource Include="Resources\контроль\11сова.jpg" />
+    <Resource Include="Resources\контроль\1заголовок.jpg" />
+    <Resource Include="Resources\контроль\2отрасль.jpg" />
+    <Resource Include="Resources\контроль\3сиз.jpg" />
+    <Resource Include="Resources\контроль\4опасные зоны.jpg" />
+    <Resource Include="Resources\контроль\6размер.jpg" />
+    <Resource Include="Resources\контроль\7цвет.jpg" />
+    <Resource Include="Resources\контроль\8сова.jpg" />
+    <Resource Include="Resources\контроль\9качество.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\контроль\5шаблон.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\иконка.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\теория\10размер.jpg" />
+    <Resource Include="Resources\теория\11цвет.jpg" />
+    <Resource Include="Resources\теория\12качество.jpg" />
+    <Resource Include="Resources\теория\13код.jpg" />
+    <Resource Include="Resources\теория\1заголовок.jpg" />
+    <Resource Include="Resources\теория\2лев.jpg" />
+    <Resource Include="Resources\теория\3отрасль.jpg" />
+    <Resource Include="Resources\теория\4лев.jpg" />
+    <Resource Include="Resources\теория\5сиз.jpg" />
+    <Resource Include="Resources\теория\6статуэтка.jpg" />
+    <Resource Include="Resources\теория\7опасные зоны.jpg" />
+    <Resource Include="Resources\теория\8шаблон.jpg" />
+    <Resource Include="Resources\теория\9ракушка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\результат\10размер.jpg" />
+    <Resource Include="Resources\результат\11цвет.jpg" />
+    <Resource Include="Resources\результат\12качество.jpg" />
+    <Resource Include="Resources\результат\13код.jpg" />
+    <Resource Include="Resources\результат\1заголовок.jpg" />
+    <Resource Include="Resources\результат\2лев.jpg" />
+    <Resource Include="Resources\результат\3отрасль.jpg" />
+    <Resource Include="Resources\результат\4лев.jpg" />
+    <Resource Include="Resources\результат\5сиз.jpg" />
+    <Resource Include="Resources\результат\6статуя.jpg" />
+    <Resource Include="Resources\результат\7зоны.jpg" />
+    <Resource Include="Resources\результат\8шаблон.jpg" />
+    <Resource Include="Resources\результат\9ракушка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\конвейер\0стрелка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\конвейер\4 поиск деталей.jpg" />
+    <Resource Include="Resources\конвейер\5 сортировка по размеру.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\отрасль.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\человек против робота.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\очки.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\план.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\архитектура.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\структура машинного зрения.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\производство.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Каркас.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\результат\1испрзаголовок.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\контроль\1испрзаголовок.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\теория\ии и машинное.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\теория\пример распознавания касок.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\1теория.jpg" />
+    <Resource Include="Resources\2алгоритм.jpg" />
+    <Resource Include="Resources\4контроль_качества.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\3результат.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\результат\Шаблон.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -14,3 +14,4 @@
 ![9 Результат](https://user-images.githubusercontent.com/52165649/230760745-b6fcf0c1-dd75-4322-a907-42b16e1b6042.png)
 ![12 выход](https://user-images.githubusercontent.com/52165649/230760750-00f2c8c8-9734-40e2-9683-1f2e48c2cc5b.png)
 Страницы еще находятся в доработке
+Примеры кода можно посмотреть тут https://colab.research.google.com/drive/1Ndd1s0lNQqUfpSBpF0SYX9vT-YEvkHXG?usp=sharing  

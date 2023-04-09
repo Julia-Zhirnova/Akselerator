@@ -10,5 +10,6 @@
 ![7 Алгоритм 1](https://user-images.githubusercontent.com/52165649/230760742-c2a11d2e-8352-4d5a-96f0-d68279fdc97f.png)
 ![7 Алгоритм 2](https://user-images.githubusercontent.com/52165649/230760743-40903c7a-1466-4f55-b6f4-7460ace48a54.png)
 ![8 Алгоритм 3](https://user-images.githubusercontent.com/52165649/230760744-f5e6a34e-c9c1-4ca9-abcd-230c1decf516.png)
+Студенты получают результат
 ![9 Результат](https://user-images.githubusercontent.com/52165649/230760745-b6fcf0c1-dd75-4322-a907-42b16e1b6042.png)
 ![12 выход](https://user-images.githubusercontent.com/52165649/230760750-00f2c8c8-9734-40e2-9683-1f2e48c2cc5b.png)

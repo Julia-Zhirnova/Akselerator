@@ -1,0 +1,54 @@
+﻿<Page x:Class="УМК_Цифра.Teoryas.tmainpage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:УМК_Цифра.Teoryas"
+      mc:Ignorable="d" 
+      d:DesignHeight="410" d:DesignWidth="320"
+      Title="tmainpage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image Source="/УМК_Цифра;component/Resources/теория/1заголовок.jpg" Stretch="Fill" Grid.ColumnSpan="3"></Image>
+        <Image Source="/УМК_Цифра;component/Resources/теория/2лев.jpg" Stretch="Fill" Grid.Row="1" Grid.Column="0"></Image>
+        <Button Click="Button_Click_Otrasl" Grid.Row="1" Grid.Column="1">
+            <Image Source="/УМК_Цифра;component/Resources/теория/3отрасль.jpg" Stretch="Fill"></Image>
+        </Button>
+        <Image Source="/УМК_Цифра;component/Resources/теория/4лев.jpg" Stretch="Fill" Grid.Row="1" Grid.Column="2"></Image>
+        <Button Click="Button_Click_SIZ" Grid.Row="2" Grid.Column="0">
+            <Image Source="/УМК_Цифра;component/Resources/теория/5сиз.jpg" Stretch="Fill"></Image>
+        </Button>
+        <Image Source="/УМК_Цифра;component/Resources/теория/6статуэтка.jpg" Stretch="Fill" Grid.Row="2" Grid.Column="1"></Image>
+        <Button Click="Button_Click_Zone" Grid.Row="2" Grid.Column="2">
+            <Image Source="/УМК_Цифра;component/Resources/теория/7опасные зоны.jpg" Stretch="Fill"></Image>
+        </Button>
+        <Button Click="Button_Click_Shablon" Grid.Row="3" Grid.Column="0">
+            <Image Source="/УМК_Цифра;component/Resources/теория/8шаблон.jpg" Stretch="Fill"></Image>
+        </Button>
+        <Image Source="/УМК_Цифра;component/Resources/теория/9ракушка.jpg" Stretch="Fill" Grid.Row="3" Grid.Column="1"></Image>
+        <Button Click="Button_Click_Razmer" Grid.Row="3" Grid.Column="2">
+            <Image Source="/УМК_Цифра;component/Resources/теория/10размер.jpg" Stretch="Fill"></Image>
+        </Button>
+        <Button Click="Button_Click_Zvet" Grid.Row="4" Grid.Column="0">
+            <Image Source="/УМК_Цифра;component/Resources/теория/11цвет.jpg" Stretch="Fill"></Image>
+        </Button>
+        <Button Click="Button_Click_Kachestvo" Grid.Row="4" Grid.Column="1">
+            <Image Source="/УМК_Цифра;component/Resources/теория/12качество.jpg" Stretch="Fill"></Image>
+        </Button>
+        <Button Click="Button_Click_Kod" Grid.Row="4" Grid.Column="2">
+            <Image Source="/УМК_Цифра;component/Resources/теория/13код.jpg" Stretch="Fill"></Image>
+        </Button>
+    </Grid>
+</Page>

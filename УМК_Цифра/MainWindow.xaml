@@ -1,0 +1,26 @@
+﻿<Window x:Class="УМК_Цифра.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:УМК_Цифра"
+        mc:Ignorable="d"
+        Title="Старт" MinHeight="720" MinWidth="1200" Height="720" Width="1200" 
+        d:DesignHeight="720" d:DesignWidth="1200"
+        WindowStartupLocation="CenterScreen"  
+        >
+    
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock FontSize="34" Style="{StaticResource Header}" TextAlignment="Center" Margin="15">
+                   ВНЕДРЕНИЕ КОМПЬЮТЕРНОГО ЗРЕНИЯ <LineBreak/> НА ЦИФРОВОМ ПРОИЗВОДСТВЕ
+        </TextBlock>
+        <Button Click="Button_Click" Grid.Row="1">
+            <Image Source="Resources/main.jpg"></Image>            
+        </Button>
+    </Grid>
+</Window>

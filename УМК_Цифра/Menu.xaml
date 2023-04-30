@@ -23,11 +23,17 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
+        <Button Click="Button_Click_Teorya" Grid.ColumnSpan="2" Style="{StaticResource MenuButton}"/>
+        <Button Click="Button_Click_Algoritm" Grid.Row="2"  Grid.ColumnSpan="2" Style="{StaticResource MenuButton}" />
+        <Button Click="Button_Click_Result" Grid.Column="3" Grid.ColumnSpan="2"  Style="{StaticResource MenuButton}" />
+        <Button Click="Button_Click_Control" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2" Style="{StaticResource MenuButton}" />
+
         <Border Grid.Column="1" Grid.ColumnSpan="3" Grid.RowSpan="3" >
             <Border.Background>
                 <ImageBrush ImageSource="/Resources/fon.jpeg" Opacity="0.4" Stretch="Fill"/>
             </Border.Background>
         </Border>
+        
         <Image Margin="10" Grid.Column="1" Source="Resources/1теория.jpg" >
             <Image.Effect>
                 <DropShadowEffect BlurRadius="40" ShadowDepth="10"/>
@@ -48,13 +54,13 @@
                 <DropShadowEffect BlurRadius="40" ShadowDepth="10" Direction="-135"/>
             </Image.Effect>
         </Image>
+        
         <Image Margin="10" Grid.Column="3" Grid.Row="1" Source="Resources/стрелк.png" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>                    
                     <RotateTransform Angle="180"/>
                 </TransformGroup>
             </Image.RenderTransform>
-
         </Image>
         <Image  Margin="60" Grid.Column="2" Grid.Row="2" Source="Resources/стрелк.png" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
@@ -62,25 +68,51 @@
                     <RotateTransform Angle="270"/>
                 </TransformGroup>
             </Image.RenderTransform>
-
         </Image>
-        <Image Margin="10" Grid.Column="1" Grid.Row="1" Source="Resources/стрелк.png" RenderTransformOrigin="0.5,0.5">
-            
-        </Image>
+        <Image Margin="10" Grid.Column="1" Grid.Row="1" Source="Resources/стрелк.png" RenderTransformOrigin="0.5,0.5"/>
 
 
-        <Button Click="Button_Click_Teorya" Grid.Row="0" Grid.Column="0"  Background="{x:Null}">
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="10" VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="Склад цифрового производства знаний">
+            <TextBlock.Background>
+                <!--Настройки градиента-->
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Column="4" TextWrapping="WrapWithOverflow" Margin="10" VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="Отдел по контролю качества приобретенных ЗУН">
+            <TextBlock.Background>
+                <!--Настройки градиента-->
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="4" TextWrapping="WrapWithOverflow" Margin="10" VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="Склад приобретенных ЗУН">
+            <TextBlock.Background>
+                <!--Настройки градиента-->
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Row="2" TextWrapping="WrapWithOverflow" Margin="10" VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="Конвейер по формированию ЗУН машинного зрения">
+            <TextBlock.Background>
+                <!--Настройки градиента-->
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </TextBlock.Background>
+        </TextBlock>
 
-        </Button>
-        <Button Margin="0,0,0,10" Click="Button_Click_Algoritm" Grid.Row="1"  Grid.Column="0" Background="{x:Null}">
-
-        </Button>
-        <Button   Click="Button_Click_Result" Grid.Row="1"  Grid.Column="2"  Background="{x:Null}">
-
-        </Button>
-        <Button Click="Button_Click_Control" Grid.Row="0" Grid.Column="2"  Background="{x:Null}">
-
-        </Button>
-
+        
     </Grid>
 </Window>

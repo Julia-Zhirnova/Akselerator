@@ -65,7 +65,7 @@
                 <DropShadowEffect BlurRadius="10" ShadowDepth="5"/>
             </Image.Effect>
         </Image>
-        <Image Grid.Column="3" Grid.Row="2" Source="/Resources/результат/стрел.jpg" RenderTransformOrigin="0.5,0.5">
+        <Image Grid.RowSpan="2" Grid.Column="3" Grid.Row="1" Source="/Resources/результат/стрел.jpg" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="-1"/>                    
@@ -83,7 +83,7 @@
         <TextBlock Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="1" Margin="10"
                    VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
         Text="СИЗ" FontSize="13" FontWeight="Bold"/>
-        <Image Grid.Column="7" Grid.Row="2" Source="/Resources/результат/стрел.jpg" RenderTransformOrigin="0.5,0.5">
+        <Image Grid.RowSpan="2" Grid.Column="7" Grid.Row="1" Source="/Resources/результат/стрел.jpg" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="-1"/>                    
@@ -95,7 +95,7 @@
                 <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
             </Image.Effect>
         </Image>
-        <Image Grid.Column="7" Grid.Row="7" Source="/Resources/результат/стрел.jpg" RenderTransformOrigin="0.5,0.5">
+        <Image Grid.RowSpan="2" Grid.Column="7" Grid.Row="5" Source="/Resources/результат/стрел.jpg" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="-1"/>
@@ -118,7 +118,7 @@
                 <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
             </Image.Effect>
         </Image>
-        <Image Grid.ColumnSpan="2" Grid.Column="9" Grid.Row="4" Source="/Resources/результат/2стрел.jpg" HorizontalAlignment="Left" Margin="0 0 0 30"/>
+        <Image Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="9" Grid.Row="3" Source="/Resources/результат/2стрел.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0 0 0 60"/>
         <Border Margin="5" Grid.Column="2" Grid.ColumnSpan="3" Grid.Row="3" >
             <Border.Background>
                 <RadialGradientBrush RadiusX="1" RadiusY="1" >
@@ -135,7 +135,7 @@
                 <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
             </Image.Effect>
         </Image>
-        <Image Margin="70 0 0 0" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Grid.Row="4" Source="/Resources/результат/3стрел.jpg" RenderTransformOrigin="0.5,0.5"/>
+        <Image Margin="60 0 0 0" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Row="3" Source="/Resources/результат/3стрел.jpg" RenderTransformOrigin="0.5,0.5"/>
         <Border Margin="5" Grid.ColumnSpan="3" Grid.Column="6" Grid.Row="3" >
             <Border.Background>
                 <RadialGradientBrush RadiusX="1" RadiusY="1" >
@@ -152,7 +152,7 @@
                 <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
             </Image.Effect>
         </Image>
-        <Image Grid.Column="5" Grid.Row="4" Source="/Resources/результат/стрел.jpg" />
+        <Image Grid.RowSpan="2"  Grid.Column="5" Grid.Row="3" Source="/Resources/результат/стрел.jpg" />
         <Border Margin="5" Grid.ColumnSpan="3" Grid.Row="5" >
             <Border.Background>
                 <RadialGradientBrush RadiusX="1" RadiusY="1" >
@@ -169,7 +169,7 @@
                 <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
             </Image.Effect>
         </Image>
-        <Image Grid.Column="4" Grid.Row="7" Source="/Resources/результат/стрел.jpg">
+        <Image Grid.RowSpan="2" Grid.Column="4" Grid.Row="5" Source="/Resources/результат/стрел.jpg">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="-1"/>

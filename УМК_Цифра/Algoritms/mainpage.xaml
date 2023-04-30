@@ -9,16 +9,16 @@
       Title="mainpage">
 
     <Grid>
-        <Grid.RowDefinitions>
+        <Grid.RowDefinitions>            
             <RowDefinition Height="2*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="3*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="3*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="3*"/>
+            <RowDefinition Height="3*"/>            
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
+        <Grid.ColumnDefinitions>            
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
@@ -30,37 +30,228 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Button Click="Button_Click_Shtrihkod" Grid.Row="0" Grid.Column="0">
-            <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/8 сборка по штрих-коду.jpg"></Image>
-        </Button>
-        <Button Click="Button_Click_Kachestvo" Grid.Row="0" Grid.Column="1">
-            <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/7 контроль качества.jpg"></Image>
-        </Button>
-        <Button Click="Button_Click_Cvet" Grid.Row="0" Grid.Column="2" >
-            <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/6 Цветовая фильтрация.jpg"></Image>
-        </Button>
-        <Grid Grid.Row="1" Grid.ColumnSpan="3">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Button Click="Button_Click_Poisk"  Grid.Column="0">
-                <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/4 поиск деталей.jpg"></Image>
-            </Button>
-            <Button Click="Button_Click_Razmer" Grid.Column="1">
-                <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/5 сортировка по размеру.jpg"></Image>
-            </Button>
-        </Grid>
-        
-        <Button Click="Button_Click_Poisk" Grid.Row="2" Grid.Column="0" >
-            <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/3 опасные зоны.jpg"></Image>
-        </Button>
-        <Button Click="Button_Click_SIZ" Grid.Row="2" Grid.Column="1" >
-            <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/2 сиз.jpg"></Image>
-        </Button>
-        <Button Click="Button_Click_Otrasl" Grid.Row="2" Grid.Column="2" >
-            <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/1 выбор отрасли.jpg"></Image>
-        </Button>
+        </Grid.ColumnDefinitions>        
+
+        <Border Margin="5" Grid.ColumnSpan="9" Grid.Column="1" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="9" Grid.Column="1" FontSize="42"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="Конвейер по формированию ЗУН машинного зрения"/>
+
+        <Border Margin="5" Grid.ColumnSpan="3" Grid.Row="1" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="3" Grid.Row="1" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="ОСНОВЫ СТЗ" FontSize="14" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2" Grid.Row="2" Source="/Resources/теория/3отрасль.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Image Grid.Row="2" Grid.Column="2" Source="/Resources/результат/1potr.png" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="5"/>
+            </Image.Effect>
+        </Image>
+        <Image Grid.Column="3" Grid.Row="2" Source="/Resources/результат/стрел.jpg" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>                    
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Border Margin="5" Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="1" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="1" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="СИЗ" FontSize="13" FontWeight="Bold"/>
+        <Image Grid.Column="7" Grid.Row="2" Source="/Resources/результат/стрел.jpg" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>                    
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Grid.Column="5" Grid.ColumnSpan="2" Grid.Row="2" Source="/Resources/теория/5сиз.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Image Grid.Column="7" Grid.Row="7" Source="/Resources/результат/стрел.jpg" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Border Margin="5" Grid.ColumnSpan="3" Grid.Column="8" Grid.Row="1" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock  Grid.ColumnSpan="3" Grid.Column="8" Grid.Row="1" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="ОПАСНЫЕ ЗОНЫ" FontSize="13" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2" Grid.Column="9" Grid.Row="6" Source="/Resources/теория/13код.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Image Grid.ColumnSpan="2" Grid.Column="9" Grid.Row="4" Source="/Resources/результат/2стрел.jpg" HorizontalAlignment="Left" Margin="0 0 0 30"/>
+        <Border Margin="5" Grid.Column="2" Grid.ColumnSpan="3" Grid.Row="3" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock  Grid.ColumnSpan="3" Grid.Column="2" Grid.Row="3" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="СОРТИРОВКА ПО РАЗМЕРУ" FontSize="13" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2" Grid.Column="2" Grid.Row="4" Source="/Resources/теория/10размер.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Image Margin="70 0 0 0" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Grid.Row="4" Source="/Resources/результат/3стрел.jpg" RenderTransformOrigin="0.5,0.5"/>
+        <Border Margin="5" Grid.ColumnSpan="3" Grid.Column="6" Grid.Row="3" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="3" Grid.Column="6" Grid.Row="3" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="ПОИСК ДЕТАЛЕЙ" FontSize="13" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2" Grid.Column="7" Grid.Row="4" Source="/Resources/теория/8шаблон.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Image Grid.Column="5" Grid.Row="4" Source="/Resources/результат/стрел.jpg" />
+        <Border Margin="5" Grid.ColumnSpan="3" Grid.Row="5" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="3" Grid.Row="5" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="ЦВЕТОВАЯ ФИЛЬТРАЦИЯ" FontSize="13" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2"  Grid.Row="7" Source="/Resources/теория/11цвет.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Image Grid.Column="4" Grid.Row="7" Source="/Resources/результат/стрел.jpg">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Border Margin="5" Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="5" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="3" Grid.Column="4" Grid.Row="5" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="КОНТРОЛЬ КАЧЕСТВА" FontSize="13" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2" Grid.Column="5" Grid.Row="6" Source="/Resources/теория/12качество.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Border Margin="5" Grid.ColumnSpan="3" Grid.Column="8" Grid.Row="5" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="3" Grid.Column="8" Grid.Row="5" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="СБОРКА ПО ШТРИХ-КОДУ" FontSize="13" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2" Grid.Column="9" Grid.Row="2" Source="/Resources/теория/7опасные зоны.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Image Grid.Row="2" Grid.Column="4" Source="/Resources/результат/2psiz.png" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="5"/>
+            </Image.Effect>
+        </Image>
+        <Image Grid.Row="2" Grid.Column="8" Source="/Resources/результат/3pzone.png" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="5"/>
+            </Image.Effect>
+        </Image>
+        <Image Grid.Row="4" Grid.Column="6" Source="/Resources/результат/4ppoisk.png" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="5"/>
+            </Image.Effect>
+        </Image>
+        <Image Grid.Row="4" Grid.Column="4" Source="/Resources/результат/5prazmer.png" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="5"/>
+            </Image.Effect>
+        </Image>
+        <Image Grid.Row="6" Grid.Column="2" Source="/Resources/результат/6pzvet.png" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="5"/>
+            </Image.Effect>
+        </Image>
+        <Image Grid.Row="6" Grid.Column="4" Source="/Resources/результат/7kachestvo.png" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="5"/>
+            </Image.Effect>
+        </Image>
+        <Image Grid.Row="6" Grid.Column="8" Source="/Resources/результат/8pkod.png" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="5"/>
+            </Image.Effect>
+        </Image>
+        <Button Click="Button_Click_Otrasl" Grid.ColumnSpan="3" Grid.RowSpan="2" Grid.Row="1" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_SIZ" Grid.ColumnSpan="3" Grid.RowSpan="2" Grid.Column="4" Grid.Row="1" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_Zone" Grid.ColumnSpan="3" Grid.RowSpan="2" Grid.Column="8" Grid.Row="1" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_Shablon" Grid.ColumnSpan="3" Grid.RowSpan="2" Grid.Column="6" Grid.Row="3" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_Razmer" Grid.ColumnSpan="3" Grid.RowSpan="2" Grid.Column="2" Grid.Row="3" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_Zvet" Grid.ColumnSpan="3" Grid.RowSpan="2" Grid.Row="5" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_Kachestvo" Grid.ColumnSpan="3" Grid.RowSpan="2" Grid.Column="4" Grid.Row="5" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_Kod" Grid.ColumnSpan="3" Grid.RowSpan="2" Grid.Column="8" Grid.Row="5" Style="{StaticResource MenuMoreButton}"/>
+
+
     </Grid>
 </Page>

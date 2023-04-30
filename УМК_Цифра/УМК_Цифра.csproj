@@ -399,5 +399,22 @@
   <ItemGroup>
     <Resource Include="Resources\теория\3strel.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\результат\2psiz.png" />
+    <Resource Include="Resources\результат\3pzone.png" />
+    <Resource Include="Resources\результат\4ppoisk.png" />
+    <Resource Include="Resources\результат\5prazmer.png" />
+    <Resource Include="Resources\результат\6pzvet.png" />
+    <Resource Include="Resources\результат\7kachestvo.png" />
+    <Resource Include="Resources\результат\8pkod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\результат\1potr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\результат\2стрел.jpg" />
+    <Resource Include="Resources\результат\3стрел.jpg" />
+    <Resource Include="Resources\результат\стрел.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

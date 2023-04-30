@@ -30,12 +30,12 @@ namespace УМК_Цифра.Algoritms
            
         }
 
-        private void Button_Click_Cvet(object sender, RoutedEventArgs e)
+        private void Button_Click_Zvet(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void Button_Click_Poisk(object sender, RoutedEventArgs e)
+        private void Button_Click_Shablon(object sender, RoutedEventArgs e)
         {
 
         }
@@ -55,7 +55,12 @@ namespace УМК_Цифра.Algoritms
             Manager.MainFrame.Navigate(new Algoritms.aOtrasl());
         }
 
-        private void Button_Click_Shtrihkod(object sender, RoutedEventArgs e)
+        private void Button_Click_Kod(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Zone(object sender, RoutedEventArgs e)
         {
 
         }

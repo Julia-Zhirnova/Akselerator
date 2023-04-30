@@ -5,30 +5,63 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
-        Title="Menu" MinHeight="500" MinWidth="780" Height="500" Width="780"
+        Title="Menu" MinHeight="720" MinWidth="1200" Height="720" Width="1200"
+        d:DesignHeight="720" d:DesignWidth="1200"
         WindowStartupLocation="CenterScreen">
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="0.5*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
-
         </Grid.ColumnDefinitions>
-        <Button Click="Button_Click_Teorya" Grid.Row="0" Grid.Column="0">
-            <Image Source="Resources/1теория.jpg" Stretch="Fill"></Image>
+
+        <Border Grid.Column="1" Grid.ColumnSpan="3" Grid.RowSpan="3" >
+            <Border.Background>
+                <ImageBrush ImageSource="/Resources/fon.jpeg" Opacity="0.6" Stretch="Fill"/>
+            </Border.Background>
+        </Border>
+        <Image Margin="10" Grid.Column="1" Source="Resources/1теория.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="40" ShadowDepth="10"/>
+            </Image.Effect>
+        </Image>
+        <Image Margin="10" Grid.Column="3" Grid.Row="2" Source="Resources/3результат.jpg" Stretch="Fill">
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="40" ShadowDepth="10" />
+            </Image.Effect>
+        </Image>
+        <Image Margin="10" Grid.Column="1" Grid.Row="2" Source="Resources/2алгоритм.jpg" Stretch="Fill">
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="40" ShadowDepth="10" Direction="-135"/>
+            </Image.Effect>
+        </Image>
+        <Image Margin="10" Grid.Column="3" Source="Resources/4контроль_качества.jpg" Stretch="Fill">
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="40" ShadowDepth="10" Direction="-135"/>
+            </Image.Effect>
+        </Image>
+        
+        
+
+        <Button Click="Button_Click_Teorya" Grid.Row="0" Grid.Column="0"  Background="{x:Null}">
+            
         </Button>
-        <Button Margin="0,0,0,10" Click="Button_Click_Algoritm" Grid.Row="1"  Grid.Column="0">
-            <Image Source="Resources/2алгоритм.jpg" Stretch="Fill"></Image>
+        <Button Margin="0,0,0,10" Click="Button_Click_Algoritm" Grid.Row="1"  Grid.Column="0" Background="{x:Null}">
+            
         </Button>
-        <Button   Click="Button_Click_Result" Grid.Row="1"  Grid.Column="1">
-            <Image Source="Resources/3результат.jpg" Stretch="Fill"></Image>
+        <Button   Click="Button_Click_Result" Grid.Row="1"  Grid.Column="2"  Background="{x:Null}">
+           
         </Button>
-        <Button Click="Button_Click_Control" Grid.Row="0" Grid.Column="1">
-            <Image Source="Resources/4контроль_качества.jpg" Stretch="Fill"></Image>
+        <Button Click="Button_Click_Control" Grid.Row="0" Grid.Column="2"  Background="{x:Null}">
+            
         </Button>
 
     </Grid>

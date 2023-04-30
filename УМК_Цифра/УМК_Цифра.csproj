@@ -372,5 +372,11 @@
     <Resource Include="Resources\hide.png" />
     <Resource Include="Resources\view.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\fon.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\fon1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

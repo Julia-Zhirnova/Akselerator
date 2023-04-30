@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
         Title="Greetings" MinHeight="600" MinWidth="900" Height="600" Width="900"
+        d:DesignHeight="600" d:DesignWidth="900"
         WindowStartupLocation="CenterScreen">
     
     <Grid>
@@ -25,12 +26,12 @@
                     </RadialGradientBrush>
                 </TextBlock.Background>
             </TextBlock>
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 20 0 0">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock  Width="160"> Введите логин:</TextBlock>
                     <TextBox Name="TxbLogin" Width="100" Height="25"></TextBox>
                 </StackPanel>
-                <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal" >
                     <TextBlock Width="160"> Введите пароль:</TextBlock>
                     <TextBox Name="TxbPassword" Width="100" Visibility="Hidden" Height="25"></TextBox>
                     <PasswordBox Name="PsbPassword" Width="100" Height="25" Margin="-100 0 0 0">                  
@@ -41,14 +42,16 @@
                     <Button Width="25" Height="25" x:Name="SeekPass" Style="{StaticResource GreyButton}"  Click="SeekPass_Click" Visibility="Collapsed"  HorizontalAlignment="Right" Margin="-25 0 0 0">
                         <Image Source="/Resources/hide.png"/>
                     </Button>
-
-                </StackPanel>
-
-                
+                </StackPanel>                
             </StackPanel>
-           
-            <Button Name="BtnInLogin" Click="BtnInLogin_Click" Style="{StaticResource GreyButton}">
+
+            <Button Margin="0 20 0 0" Width="200" Height="60" Name="BtnInLogin" Click="BtnInLogin_Click" Style="{StaticResource GreyButton}">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="10" ShadowDepth="5"/>
+                </Button.Effect>
+
                 Войти
+                
             </Button>
         </StackPanel>
        

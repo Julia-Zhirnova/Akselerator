@@ -378,5 +378,8 @@
   <ItemGroup>
     <Resource Include="Resources\fon1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\стрелк.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

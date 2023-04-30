@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
-        Title="Algoritm" MinHeight="450" MinWidth="950" Height="450" Width="950"
-        WindowStartupLocation="CenterScreen">
+        Title="Algoritm" MinHeight="720" MinWidth="1200" Height="720" Width="1200"
+        d:DesignHeight="720" d:DesignWidth="1200">
     <Grid>
         <Frame Name="MainFrame"/>
 

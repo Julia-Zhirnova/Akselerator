@@ -381,5 +381,23 @@
   <ItemGroup>
     <Resource Include="Resources\стрелк.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\теория\font.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\контроль\fonk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\результат\fonr.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\теория\strel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\теория\2strel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\теория\3strel.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

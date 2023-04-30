@@ -5,50 +5,217 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:УМК_Цифра.Teoryas"
       mc:Ignorable="d" 
-      d:DesignHeight="410" d:DesignWidth="320"
+      d:DesignHeight="720" d:DesignWidth="1200"    
       Title="tmainpage">
 
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="0.5*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Image Source="/УМК_Цифра;component/Resources/теория/1заголовок.jpg" Stretch="Fill" Grid.ColumnSpan="3"></Image>
-        <Image Source="/УМК_Цифра;component/Resources/теория/2лев.jpg" Stretch="Fill" Grid.Row="1" Grid.Column="0"></Image>
-        <Button Click="Button_Click_Otrasl" Grid.Row="1" Grid.Column="1">
-            <Image Source="/УМК_Цифра;component/Resources/теория/3отрасль.jpg" Stretch="Fill"></Image>
-        </Button>
-        <Image Source="/УМК_Цифра;component/Resources/теория/4лев.jpg" Stretch="Fill" Grid.Row="1" Grid.Column="2"></Image>
-        <Button Click="Button_Click_SIZ" Grid.Row="2" Grid.Column="0">
-            <Image Source="/УМК_Цифра;component/Resources/теория/5сиз.jpg" Stretch="Fill"></Image>
-        </Button>
-        <Image Source="/УМК_Цифра;component/Resources/теория/6статуэтка.jpg" Stretch="Fill" Grid.Row="2" Grid.Column="1"></Image>
-        <Button Click="Button_Click_Zone" Grid.Row="2" Grid.Column="2">
-            <Image Source="/УМК_Цифра;component/Resources/теория/7опасные зоны.jpg" Stretch="Fill"></Image>
-        </Button>
-        <Button Click="Button_Click_Shablon" Grid.Row="3" Grid.Column="0">
-            <Image Source="/УМК_Цифра;component/Resources/теория/8шаблон.jpg" Stretch="Fill"></Image>
-        </Button>
-        <Image Source="/УМК_Цифра;component/Resources/теория/9ракушка.jpg" Stretch="Fill" Grid.Row="3" Grid.Column="1"></Image>
-        <Button Click="Button_Click_Razmer" Grid.Row="3" Grid.Column="2">
-            <Image Source="/УМК_Цифра;component/Resources/теория/10размер.jpg" Stretch="Fill"></Image>
-        </Button>
-        <Button Click="Button_Click_Zvet" Grid.Row="4" Grid.Column="0">
-            <Image Source="/УМК_Цифра;component/Resources/теория/11цвет.jpg" Stretch="Fill"></Image>
-        </Button>
-        <Button Click="Button_Click_Kachestvo" Grid.Row="4" Grid.Column="1">
-            <Image Source="/УМК_Цифра;component/Resources/теория/12качество.jpg" Stretch="Fill"></Image>
-        </Button>
-        <Button Click="Button_Click_Kod" Grid.Row="4" Grid.Column="2">
-            <Image Source="/УМК_Цифра;component/Resources/теория/13код.jpg" Stretch="Fill"></Image>
-        </Button>
+        
+            <Grid.Background>
+                <ImageBrush ImageSource="/Resources/теория/font.jpg" Opacity="0.4" Stretch="Fill"/>
+            </Grid.Background>
+
+        <Border Margin="10" Grid.ColumnSpan="8" Grid.Column="2" Grid.Row="1" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="8" Grid.Column="2" Grid.Row="1" FontSize="42"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="Склад цифрового производства знаний"/>
+
+        <Border Margin="5" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="2" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="2" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="ОСНОВЫ СТЗ" FontSize="14" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="3" Source="/Resources/теория/3отрасль.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Image Margin="15" Grid.ColumnSpan="2" Grid.Column="3" Grid.Row="3" Source="/Resources/теория/strel.png"/>            
+        <Border Margin="5" Grid.ColumnSpan="2" Grid.Column="5" Grid.Row="2" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="2" Grid.Column="5" Grid.Row="2" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="СИЗ" FontSize="13" FontWeight="Bold"/>
+        <Image Margin="15" Grid.ColumnSpan="2" Grid.Column="7" Grid.Row="3" Source="/Resources/теория/strel.png"/>
+        <Image Grid.ColumnSpan="2" Grid.Column="5" Grid.Row="7" Source="/Resources/теория/12качество.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Image Margin="15" Grid.ColumnSpan="2" Grid.Column="7" Grid.Row="7" Source="/Resources/теория/strel.png"/>
+        <Border Margin="5" Grid.ColumnSpan="2" Grid.Column="9" Grid.Row="2" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>        
+        <TextBlock Grid.ColumnSpan="2" Grid.Column="9" Grid.Row="2" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="ОПАСНЫЕ ЗОНЫ" FontSize="13" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2" Grid.Column="9" Grid.Row="7" Source="/Resources/теория/13код.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Image Margin="20 20 0 70" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="9" Grid.Row="4" Source="/Resources/теория/2strel.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Border Margin="5" Grid.ColumnSpan="2" Grid.Column="3" Grid.Row="4" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="2" Grid.Column="3" Grid.Row="4" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="СОРТИРОВКА ПО РАЗМЕРУ" FontSize="13" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2" Grid.Column="3" Grid.Row="5" Source="/Resources/теория/10размер.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Image Margin="70 0 30 0" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="5" Source="/Resources/теория/3strel.png" RenderTransformOrigin="0.5,0.5"/>
+
+
+        <Border Margin="5" Grid.ColumnSpan="2" Grid.Column="7" Grid.Row="4" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="2" Grid.Column="7" Grid.Row="4" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="ПОИСК ДЕТАЛЕЙ" FontSize="13" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2" Grid.Column="7" Grid.Row="5" Source="/Resources/теория/8шаблон.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Image Margin="15" Grid.ColumnSpan="2" Grid.Column="5" Grid.Row="5" Source="/Resources/теория/strel.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Border Margin="5" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="6" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="6" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="ЦВЕТОВАЯ ФИЛЬТРАЦИЯ" FontSize="13" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="7" Source="/Resources/теория/11цвет.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Image Margin="15" Grid.ColumnSpan="2" Grid.Column="3" Grid.Row="7" Source="/Resources/теория/strel.png"/>
+        <Border Margin="5" Grid.ColumnSpan="2" Grid.Column="5" Grid.Row="6" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="2" Grid.Column="5" Grid.Row="6" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="КОНТРОЛЬ КАЧЕСТВА" FontSize="13" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2" Grid.Column="5" Grid.Row="3" Source="/Resources/теория/5сиз.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        <Border Margin="5" Grid.ColumnSpan="2" Grid.Column="9" Grid.Row="6" >
+            <Border.Background>
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+        </Border>
+        <TextBlock Grid.ColumnSpan="2" Grid.Column="9" Grid.Row="6" Margin="10"
+                   VerticalAlignment="Center" TextAlignment="Center" Foreground="Black"
+        Text="СБОРКА ПО ШТРИХ-КОДУ" FontSize="13" FontWeight="Bold"/>
+        <Image Grid.ColumnSpan="2" Grid.Column="9" Grid.Row="3" Source="/Resources/теория/7опасные зоны.jpg" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
+            </Image.Effect>
+        </Image>
+        
+       
+        <Button Click="Button_Click_Otrasl" Grid.Row="1" Grid.Column="1" Style="{StaticResource MenuButton}"/>
+        <Button Click="Button_Click_SIZ" Grid.Row="2" Grid.Column="0" Style="{StaticResource MenuButton}"/>
+        <Button Click="Button_Click_Zone" Grid.Row="2" Grid.Column="2" Style="{StaticResource MenuButton}"/>
+        <Button Click="Button_Click_Shablon" Grid.Row="3" Grid.Column="0" Style="{StaticResource MenuButton}"/>
+        <Button Click="Button_Click_Razmer" Grid.Row="3" Grid.Column="2" Style="{StaticResource MenuButton}"/>
+        <Button Click="Button_Click_Zvet" Grid.Row="4" Grid.Column="0" Style="{StaticResource MenuButton}"/>
+        <Button Click="Button_Click_Kachestvo" Grid.Row="4" Grid.Column="1" Style="{StaticResource MenuButton}"/>
+        <Button Click="Button_Click_Kod" Grid.Row="4" Grid.Column="2" Style="{StaticResource MenuButton}"/>         
+        
     </Grid>
 </Page>

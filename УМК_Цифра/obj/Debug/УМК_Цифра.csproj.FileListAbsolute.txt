@@ -85,12 +85,6 @@ D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\УМК_Цифра.csproj.CopyComplete
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Bye.g.cs
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Bye.baml
-D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Debug\УМК_Цифра.exe.config
-D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Debug\УМК_Цифра.exe
-D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Debug\УМК_Цифра.pdb
-D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Debug\Prism.dll
-D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Debug\Prism.pdb
-D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Debug\Prism.xml
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\УМК_Цифра.csproj.AssemblyReference.cache
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\УМК_Цифра.csproj.SuggestedBindingRedirects.cache
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\Algoritm.g.cs
@@ -117,6 +111,12 @@ D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\Teoryas\
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\App.g.cs
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\УМК_Цифра_MarkupCompile.cache
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\УМК_Цифра_MarkupCompile.lref
+D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Debug\УМК_Цифра.exe.config
+D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Debug\УМК_Цифра.exe
+D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Debug\УМК_Цифра.pdb
+D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Debug\Prism.dll
+D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Debug\Prism.pdb
+D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Debug\Prism.xml
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\App.baml
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\Algoritm.baml
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\Algoritms\aOtrasl.baml

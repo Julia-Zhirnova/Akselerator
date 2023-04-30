@@ -5,22 +5,38 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:УМК_Цифра.Controls"
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="570"
+      d:DesignHeight="720" d:DesignWidth="1200" 
       Title="cmainpage">
 
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="6*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Resources/контроль/fonk.jpg" Opacity="0.6" Stretch="Fill"/>
+        </Grid.Background>
         <Image Source="/УМК_Цифра;component/Resources/контроль/1испрзаголовок.jpg" Stretch="Fill" Grid.ColumnSpan="5" HorizontalAlignment="Center"></Image>
         <Button Click="Button_Click_Otrasl" Grid.Row="1" Grid.Column="0">
             <Image Source="/УМК_Цифра;component/Resources/контроль/2отрасль.jpg" Stretch="Fill"></Image>

@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+
 namespace УМК_Цифра
 {
     /// <summary>
@@ -21,18 +22,19 @@ namespace УМК_Цифра
     /// </summary>
     public partial class Teorya : Window
     {
+        double screenWidth = System.Windows.SystemParameters.PrimaryScreenWidth;
+        double screenhight = System.Windows.SystemParameters.PrimaryScreenHeight;
         public Teorya()
         {
             InitializeComponent();
             MainFrame.Navigate(new Teoryas.tmainpage());
-            Manager.MainFrame = MainFrame;
+            Manager.MainFrame = MainFrame;            
         }
         IntPtr hWnd = IntPtr.Zero;
         double xRatio = 1;
         double yRatio = 1;
         int sizingEdge = 0;
-
-
+        
         [StructLayout(LayoutKind.Sequential)]
         internal struct WINDOWPOS
         {

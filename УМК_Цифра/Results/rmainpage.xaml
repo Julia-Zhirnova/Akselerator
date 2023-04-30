@@ -5,22 +5,38 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:УМК_Цифра.Results"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="330"
+      d:DesignHeight="720" d:DesignWidth="1200" 
       Title="rmainpage">
 
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="6*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Resources/результат/fonr.jpeg" Opacity="0.6" Stretch="Fill"/>
+        </Grid.Background>
         <Image Source="/УМК_Цифра;component/Resources/результат/1испрзаголовок.jpg" Stretch="Fill" Grid.ColumnSpan="3"></Image>
         <Image Source="/УМК_Цифра;component/Resources/результат/2лев.jpg" Stretch="Fill" Grid.Row="1" Grid.Column="0"></Image>
         <Button Click="Button_Click_Otrasl" Grid.Row="1" Grid.Column="1">

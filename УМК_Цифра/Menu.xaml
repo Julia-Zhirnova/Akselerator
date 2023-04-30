@@ -25,8 +25,8 @@
 
         <Button Click="Button_Click_Teorya" Grid.ColumnSpan="2" Style="{StaticResource MenuButton}"/>
         <Button Click="Button_Click_Algoritm" Grid.Row="2"  Grid.ColumnSpan="2" Style="{StaticResource MenuButton}" />
-        <Button Click="Button_Click_Result" Grid.Column="3" Grid.ColumnSpan="2"  Style="{StaticResource MenuButton}" />
-        <Button Click="Button_Click_Control" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2" Style="{StaticResource MenuButton}" />
+        <Button Click="Button_Click_Result" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2"  Style="{StaticResource MenuButton}" />
+        <Button Click="Button_Click_Control" Grid.Column="3" Grid.ColumnSpan="2" Style="{StaticResource MenuButton}" />
 
         <Border Grid.Column="1" Grid.ColumnSpan="3" Grid.RowSpan="3" >
             <Border.Background>

@@ -37,7 +37,7 @@ namespace УМК_Цифра.Controls
 
         }
 
-        private void Button_Click_Opasn(object sender, RoutedEventArgs e)
+        private void Button_Click_Zone(object sender, RoutedEventArgs e)
         {
 
         }
@@ -52,7 +52,7 @@ namespace УМК_Цифра.Controls
 
         }
 
-        private void Button_Click_Svet(object sender, RoutedEventArgs e)
+        private void Button_Click_Zvet(object sender, RoutedEventArgs e)
         {
 
         }

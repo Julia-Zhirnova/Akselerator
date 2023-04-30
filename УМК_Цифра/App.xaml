@@ -26,7 +26,7 @@
         </Style>
      
         <Style TargetType="Button" x:Key="MenuButton">
-            <Setter Property="Background" Value="#00000000" ></Setter>
+            
             <Setter Property="Panel.ZIndex" Value="1" ></Setter>
             <Setter Property="Margin" Value="10" ></Setter>
             <Setter Property="Template">
@@ -50,8 +50,37 @@
                 </Setter.Value>
             </Setter>
         </Style>
-        
-       <Style TargetType="Button" x:Key="GreyButton">            
+
+        <Style TargetType="Button" x:Key="MenuMoreButton">
+            <Setter Property="Grid.RowSpan" Value="2" ></Setter>
+            <Setter Property="Grid.ColumnSpan" Value="2" ></Setter>
+            
+            <Setter Property="Panel.ZIndex" Value="1" ></Setter>
+            
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border>
+                            <Border.Style>
+                                <Style TargetType="{x:Type Border}">
+                                    <Setter Property="Background" Value="#66000000" ></Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#00000000"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Border.Style>
+                            <Grid Background="Transparent">
+                                <ContentPresenter></ContentPresenter>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="Button" x:Key="GreyButton">            
             <Setter Property="Background">
                 <Setter.Value>
                     <RadialGradientBrush RadiusX="1" RadiusY="1" >

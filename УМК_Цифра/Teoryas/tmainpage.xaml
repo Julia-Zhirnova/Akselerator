@@ -206,16 +206,16 @@
                 <DropShadowEffect BlurRadius="15" ShadowDepth="7"/>
             </Image.Effect>
         </Image>
-        
-       
-        <Button Click="Button_Click_Otrasl" Grid.Row="1" Grid.Column="1" Style="{StaticResource MenuButton}"/>
-        <Button Click="Button_Click_SIZ" Grid.Row="2" Grid.Column="0" Style="{StaticResource MenuButton}"/>
-        <Button Click="Button_Click_Zone" Grid.Row="2" Grid.Column="2" Style="{StaticResource MenuButton}"/>
-        <Button Click="Button_Click_Shablon" Grid.Row="3" Grid.Column="0" Style="{StaticResource MenuButton}"/>
-        <Button Click="Button_Click_Razmer" Grid.Row="3" Grid.Column="2" Style="{StaticResource MenuButton}"/>
-        <Button Click="Button_Click_Zvet" Grid.Row="4" Grid.Column="0" Style="{StaticResource MenuButton}"/>
-        <Button Click="Button_Click_Kachestvo" Grid.Row="4" Grid.Column="1" Style="{StaticResource MenuButton}"/>
-        <Button Click="Button_Click_Kod" Grid.Row="4" Grid.Column="2" Style="{StaticResource MenuButton}"/>         
+
+
+        <Button Click="Button_Click_Otrasl" Grid.Column="1" Grid.Row="2" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_SIZ"  Grid.Column="5" Grid.Row="2" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_Zone"  Grid.Column="9" Grid.Row="2" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_Shablon"  Grid.Column="7" Grid.Row="4" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_Razmer" Grid.Column="3" Grid.Row="4" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_Zvet"  Grid.Column="1" Grid.Row="6" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_Kachestvo"  Grid.Column="5" Grid.Row="6" Style="{StaticResource MenuMoreButton}"/>
+        <Button Click="Button_Click_Kod" Grid.Column="9" Grid.Row="6" Style="{StaticResource MenuMoreButton}"/>         
         
     </Grid>
 </Page>

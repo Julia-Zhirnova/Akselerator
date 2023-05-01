@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,6 +25,12 @@ namespace УМК_Цифра.Algoritms
         public aSIZ()
         {
             InitializeComponent();
+            
+        }       
+        
+        private void Button_Click_COLAB(object sender, RoutedEventArgs e)
+        {
+            Process.Start("https://colab.research.google.com/drive/1Ndd1s0lNQqUfpSBpF0SYX9vT-YEvkHXG?usp=sharing");
         }
     }
 }

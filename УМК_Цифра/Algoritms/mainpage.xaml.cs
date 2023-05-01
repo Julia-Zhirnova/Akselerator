@@ -47,7 +47,7 @@ namespace УМК_Цифра.Algoritms
 
         private void Button_Click_SIZ(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new aSIZ());
         }
 
         private void Button_Click_Otrasl(object sender, RoutedEventArgs e)

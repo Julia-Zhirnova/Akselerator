@@ -9,6 +9,6 @@
       Title="aSIZ">
 
     <Grid>
-        
+        <Button Click="Button_Click_COLAB"> COLAB</Button>
     </Grid>
 </Page>

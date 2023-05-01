@@ -66,11 +66,29 @@
     <Compile Include="Algoritm.xaml.cs">
       <DependentUpon>Algoritm.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Algoritms\aOtrasl.xaml.cs">
-      <DependentUpon>aOtrasl.xaml</DependentUpon>
+    <Compile Include="Algoritms\a7Kachestvo.xaml.cs">
+      <DependentUpon>a7Kachestvo.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Algoritms\aSIZ.xaml.cs">
-      <DependentUpon>aSIZ.xaml</DependentUpon>
+    <Compile Include="Algoritms\a8Kod.xaml.cs">
+      <DependentUpon>a8Kod.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Algoritms\a1Otrasl.xaml.cs">
+      <DependentUpon>a1Otrasl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Algoritms\a5Razmer.xaml.cs">
+      <DependentUpon>a5Razmer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Algoritms\a4Shablon.xaml.cs">
+      <DependentUpon>a4Shablon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Algoritms\a2SIZ.xaml.cs">
+      <DependentUpon>a2SIZ.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Algoritms\a3Zone.xaml.cs">
+      <DependentUpon>a3Zone.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Algoritms\a6Zvet.xaml.cs">
+      <DependentUpon>a6Zvet.xaml</DependentUpon>
     </Compile>
     <Compile Include="Algoritms\mainpage.xaml.cs">
       <DependentUpon>mainpage.xaml</DependentUpon>
@@ -81,53 +99,128 @@
     <Compile Include="Control.xaml.cs">
       <DependentUpon>Control.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\c7Kachestvo.xaml.cs">
+      <DependentUpon>c7Kachestvo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\c8Kod.xaml.cs">
+      <DependentUpon>c8Kod.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Controls\cmainpage.xaml.cs">
       <DependentUpon>cmainpage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Controls\cOtrasl.xaml.cs">
-      <DependentUpon>cOtrasl.xaml</DependentUpon>
+    <Compile Include="Controls\c1Otrasl.xaml.cs">
+      <DependentUpon>c1Otrasl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Controls\cSIZ.xaml.cs">
-      <DependentUpon>cSIZ.xaml</DependentUpon>
+    <Compile Include="Controls\c5Razmer.xaml.cs">
+      <DependentUpon>c5Razmer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\c4Shablon.xaml.cs">
+      <DependentUpon>c4Shablon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\c2SIZ.xaml.cs">
+      <DependentUpon>c2SIZ.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\c3Zone.xaml.cs">
+      <DependentUpon>c3Zone.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\c6Zvet.xaml.cs">
+      <DependentUpon>c6Zvet.xaml</DependentUpon>
     </Compile>
     <Compile Include="Manager.cs" />
     <Compile Include="Result.xaml.cs">
       <DependentUpon>Result.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Results\r7Kachestvo.xaml.cs">
+      <DependentUpon>r7Kachestvo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Results\r8Kod.xaml.cs">
+      <DependentUpon>r8Kod.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Results\rmainpage.xaml.cs">
       <DependentUpon>rmainpage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Results\rOtrasl.xaml.cs">
-      <DependentUpon>rOtrasl.xaml</DependentUpon>
+    <Compile Include="Results\r1Otrasl.xaml.cs">
+      <DependentUpon>r1Otrasl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Results\rSIZ.xaml.cs">
-      <DependentUpon>rSIZ.xaml</DependentUpon>
+    <Compile Include="Results\r5Razmer.xaml.cs">
+      <DependentUpon>r5Razmer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Results\r4Shablon.xaml.cs">
+      <DependentUpon>r4Shablon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Results\r2SIZ.xaml.cs">
+      <DependentUpon>r2SIZ.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Results\r3Zone.xaml.cs">
+      <DependentUpon>r3Zone.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Results\r6Zvet.xaml.cs">
+      <DependentUpon>r6Zvet.xaml</DependentUpon>
     </Compile>
     <Compile Include="Score.cs" />
     <Compile Include="Teorya.xaml.cs">
       <DependentUpon>Teorya.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Teoryas\t7Kachestvo.xaml.cs">
+      <DependentUpon>t7Kachestvo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Teoryas\t8Kod.xaml.cs">
+      <DependentUpon>t8Kod.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Teoryas\tmainpage.xaml.cs">
       <DependentUpon>tmainpage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Teoryas\tOtrasl.xaml.cs">
-      <DependentUpon>tOtrasl.xaml</DependentUpon>
+    <Compile Include="Teoryas\t1Otrasl.xaml.cs">
+      <DependentUpon>t1Otrasl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Teoryas\tSIZ.xaml.cs">
-      <DependentUpon>tSIZ.xaml</DependentUpon>
+    <Compile Include="Teoryas\t5Razmer.xaml.cs">
+      <DependentUpon>t5Razmer.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Teoryas\tZone.xaml.cs">
-      <DependentUpon>tZone.xaml</DependentUpon>
+    <Compile Include="Teoryas\t4Shablon.xaml.cs">
+      <DependentUpon>t4Shablon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Teoryas\t2SIZ.xaml.cs">
+      <DependentUpon>t2SIZ.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Teoryas\t3Zone.xaml.cs">
+      <DependentUpon>t3Zone.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Teoryas\t6Zvet.xaml.cs">
+      <DependentUpon>t6Zvet.xaml</DependentUpon>
     </Compile>
     <Page Include="Algoritm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Algoritms\aOtrasl.xaml">
+    <Page Include="Algoritms\a7Kachestvo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Algoritms\aSIZ.xaml">
+    <Page Include="Algoritms\a8Kod.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Algoritms\a1Otrasl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Algoritms\a5Razmer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Algoritms\a4Shablon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Algoritms\a2SIZ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Algoritms\a3Zone.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Algoritms\a6Zvet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -143,15 +236,39 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Controls\c7Kachestvo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\c8Kod.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Controls\cmainpage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Controls\cOtrasl.xaml">
+    <Page Include="Controls\c1Otrasl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Controls\cSIZ.xaml">
+    <Page Include="Controls\c5Razmer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\c4Shablon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\c2SIZ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\c3Zone.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\c6Zvet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -187,15 +304,39 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Results\r7Kachestvo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Results\r8Kod.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Results\rmainpage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Results\rOtrasl.xaml">
+    <Page Include="Results\r1Otrasl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Results\rSIZ.xaml">
+    <Page Include="Results\r5Razmer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Results\r4Shablon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Results\r2SIZ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Results\r3Zone.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Results\r6Zvet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -203,19 +344,39 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Teoryas\t7Kachestvo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Teoryas\t8Kod.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Teoryas\tmainpage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Teoryas\tOtrasl.xaml">
+    <Page Include="Teoryas\t1Otrasl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Teoryas\tSIZ.xaml">
+    <Page Include="Teoryas\t5Razmer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Teoryas\tZone.xaml">
+    <Page Include="Teoryas\t4Shablon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Teoryas\t2SIZ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Teoryas\t3Zone.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Teoryas\t6Zvet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

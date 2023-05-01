@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using УМК_Цифра.Controls;
 
 namespace УМК_Цифра.Algoritms
 {
@@ -25,44 +26,44 @@ namespace УМК_Цифра.Algoritms
             InitializeComponent();
         }
 
-        private void Button_Click_Kachestvo(object sender, RoutedEventArgs e)
+        private void Button_Click_Otrasl(object sender, RoutedEventArgs e)
         {
-           
-        }
-
-        private void Button_Click_Zvet(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_Shablon(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_Razmer(object sender, RoutedEventArgs e)
-        {
-
+            Manager.MainFrame.Navigate(new a1Otrasl());
         }
 
         private void Button_Click_SIZ(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new aSIZ());
-        }
-
-        private void Button_Click_Otrasl(object sender, RoutedEventArgs e)
-        {
-            Manager.MainFrame.Navigate(new Algoritms.aOtrasl());
-        }
-
-        private void Button_Click_Kod(object sender, RoutedEventArgs e)
-        {
-
+            Manager.MainFrame.Navigate(new a2SIZ());
         }
 
         private void Button_Click_Zone(object sender, RoutedEventArgs e)
         {
+            Manager.MainFrame.Navigate(new a3Zone());
+        }
 
+        private void Button_Click_Shablon(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new a4Shablon());
+        }
+
+        private void Button_Click_Razmer(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new a5Razmer());
+        }
+
+        private void Button_Click_Zvet(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new a6Zvet());
+        }
+
+        private void Button_Click_Kachestvo(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new a7Kachestvo());
+        }
+
+        private void Button_Click_Kod(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new a8Kod());
         }
     }
 }

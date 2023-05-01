@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using УМК_Цифра.Controls;
 
 namespace УМК_Цифра.Results
 {
@@ -25,44 +26,44 @@ namespace УМК_Цифра.Results
             InitializeComponent();
         }
 
+        private void Button_Click_Otrasl(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new r1Otrasl());
+        }
+
         private void Button_Click_SIZ(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new Results.rSIZ());
+            Manager.MainFrame.Navigate(new r2SIZ());
         }
 
         private void Button_Click_Zone(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void Button_Click_Otrasl(object sender, RoutedEventArgs e)
-        {
-            Manager.MainFrame.Navigate(new Results.rOtrasl());
+            Manager.MainFrame.Navigate(new r3Zone());
         }
 
         private void Button_Click_Shablon(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new r4Shablon());
         }
 
         private void Button_Click_Razmer(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new r5Razmer());
         }
 
         private void Button_Click_Zvet(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new r6Zvet());
         }
 
         private void Button_Click_Kachestvo(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new r7Kachestvo());
         }
 
         private void Button_Click_Kod(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new r8Kod());
         }
     }
 }

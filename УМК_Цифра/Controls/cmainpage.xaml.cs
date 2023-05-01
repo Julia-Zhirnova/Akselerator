@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -28,43 +29,42 @@ namespace УМК_Цифра.Controls
 
         private void Button_Click_Otrasl(object sender, RoutedEventArgs e)
         {
-            Process.Start("https://forms.gle/JrdK9bJQB5hXUZFF9"); //открытие ссылки в браузере
-
+            Manager.MainFrame.Navigate(new c1Otrasl());
         }
 
         private void Button_Click_SIZ(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new cSIZ());
+            Manager.MainFrame.Navigate(new c2SIZ());
         }
 
         private void Button_Click_Zone(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new c3Zone());
         }
 
         private void Button_Click_Shablon(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new c4Shablon());
         }
 
         private void Button_Click_Razmer(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new c5Razmer());
         }
 
         private void Button_Click_Zvet(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new c6Zvet());
         }
 
         private void Button_Click_Kachestvo(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new c7Kachestvo());
         }
 
         private void Button_Click_Kod(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new c8Kod());
         }
     }
 }

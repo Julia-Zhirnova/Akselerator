@@ -10,7 +10,7 @@
 
     <Grid>
         <ScrollViewer Grid.Row="1">
-            <StackPanel Grid.Row="1">
+            <StackPanel Grid.Row="1">                
                 <TextBlock FontWeight="SemiBold" FontSize="36" > Машинное зрение </TextBlock>
 
                 <Grid Background="#FF80D3D3" Height="10" VerticalAlignment="Bottom" Margin="10"></Grid>

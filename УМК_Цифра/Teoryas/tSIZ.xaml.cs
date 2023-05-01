@@ -24,5 +24,10 @@ namespace УМК_Цифра.Teoryas
         {
             InitializeComponent();
         }
+
+        private void MediaElement_MediaEnded(object sender, RoutedEventArgs e)
+        {
+            ((MediaElement)sender).Position = ((MediaElement)sender).Position.Add(TimeSpan.FromMilliseconds(1));
+        }
     }
 }

@@ -37,7 +37,7 @@ namespace УМК_Цифра.Teoryas
 
         private void Button_Click_Zone(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new Teoryas.tZone());
         }
 
         private void Button_Click_Shablon(object sender, RoutedEventArgs e)

@@ -116,6 +116,9 @@
     <Compile Include="Teoryas\tSIZ.xaml.cs">
       <DependentUpon>tSIZ.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Teoryas\tZone.xaml.cs">
+      <DependentUpon>tZone.xaml</DependentUpon>
+    </Compile>
     <Page Include="Algoritm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -209,6 +212,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Teoryas\tSIZ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Teoryas\tZone.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -415,6 +422,11 @@
     <Resource Include="Resources\результат\2стрел.jpg" />
     <Resource Include="Resources\результат\3стрел.jpg" />
     <Resource Include="Resources\результат\стрел.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\t.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

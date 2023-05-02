@@ -23,7 +23,24 @@ namespace УМК_Цифра.Teoryas
         public t3Zone()
         {
             InitializeComponent();
-        }    
+        }
+
+        private void Proiz1(object sender, RoutedEventArgs e)
+        {
+            Score.ScorePoint -= 1;
+            MessageBox.Show("Неверно, Вы потеряли балл");
+        }
+        private void Proiz2(object sender, RoutedEventArgs e)
+        {
+            Score.ScorePoint += 1;
+            MessageBox.Show("Верно, Вы получили балл");
+
+        }
+        private void Proiz3(object sender, RoutedEventArgs e)
+        {
+            Score.ScorePoint -= 1;
+            MessageBox.Show("Неверно, Вы потеряли балл");
+        }
 
         private void myGif_MediaEnded(object sender, RoutedEventArgs e)
         {

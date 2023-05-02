@@ -30,5 +30,9 @@ namespace УМК_Цифра.Algoritms
         {
             Process.Start("main4.exe");
         }
+        private void Button_Click_COLAB(object sender, RoutedEventArgs e)
+        {
+            Process.Start("https://colab.research.google.com/drive/1Ndd1s0lNQqUfpSBpF0SYX9vT-YEvkHXG?usp=sharing");
+        }
     }
 }

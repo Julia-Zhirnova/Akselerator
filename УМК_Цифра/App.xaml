@@ -15,6 +15,14 @@
             <Setter Property="TextAlignment" Value="Left" ></Setter>
         </Style>
 
+        <Style TargetType="Paragraph">
+            <Setter Property="FontFamily" Value="Segoe UI"></Setter>
+            <Setter Property="FontSize" Value="20" ></Setter>
+            <Setter Property="LineStackingStrategy" Value="BlockLineHeight" ></Setter>                       
+            <Setter Property="Margin" Value="10" ></Setter>
+            <Setter Property="TextAlignment" Value="Left" ></Setter>
+        </Style>
+        
         <Style TargetType="TextBlock" x:Key="Header">
             <Setter Property="FontFamily" Value="Segoe UI Semibold"></Setter>
         </Style>

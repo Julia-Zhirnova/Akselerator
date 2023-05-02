@@ -25,9 +25,27 @@ namespace УМК_Цифра.Teoryas
             InitializeComponent();
         }
 
-        private void MediaElement_MediaEnded(object sender, RoutedEventArgs e)
+        private void Proiz1(object sender, RoutedEventArgs e)
         {
-            ((MediaElement)sender).Position = ((MediaElement)sender).Position.Add(TimeSpan.FromMilliseconds(1));
+            Score.ScorePoint -= 1;
+            MessageBox.Show("Неверно, Вы потеряли балл");
+        }
+        private void Proiz2(object sender, RoutedEventArgs e)
+        {
+            Score.ScorePoint += 1;
+            MessageBox.Show("Верно, Вы получили балл");
+
+        }
+        private void Proiz3(object sender, RoutedEventArgs e)
+        {
+            Score.ScorePoint -= 1;
+            MessageBox.Show("Неверно, Вы потеряли балл");
+        }
+
+        private void myGif_MediaEnded(object sender, RoutedEventArgs e)
+        {
+            myGif.Position = new TimeSpan(0, 0, 1);
+            myGif.Play();
         }
     }
 }

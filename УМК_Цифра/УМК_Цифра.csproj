@@ -127,6 +127,7 @@
       <DependentUpon>c6Zvet.xaml</DependentUpon>
     </Compile>
     <Compile Include="Manager.cs" />
+    <Compile Include="myMessageBox.xaml.cs" />
     <Compile Include="Result.xaml.cs">
       <DependentUpon>Result.xaml</DependentUpon>
     </Compile>
@@ -297,8 +298,8 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="myMessageBox.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Result.xaml">
       <SubType>Designer</SubType>
@@ -384,9 +385,6 @@
   <ItemGroup>
     <Compile Include="Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="myMessageBox.xaml.cs">
-      <DependentUpon>myMessageBox.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

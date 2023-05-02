@@ -9,9 +9,10 @@
       Title="aOtrasl">
 
     <Grid>
-        <ScrollViewer Grid.Row="1">
-            <StackPanel Grid.Row="1">
-                <TextBlock FontWeight="SemiBold" FontSize="36" > Алгоритм выбора отрасли</TextBlock>
+        <FlowDocumentReader ViewingMode="TwoPage"  IsPageViewEnabled="False" FontSize="10">
+            <FlowDocument   >
+                <Paragraph TextAlignment="Left" >
+                    <TextBlock FontWeight="SemiBold" FontSize="36" > Алгоритм выбора отрасли</TextBlock>
                 <Grid Background="#FF80D3D3" Height="10" VerticalAlignment="Bottom" Margin="10"></Grid>
                 <TextBlock>1. Выбрать отрасль производства и придумать название компании.</TextBlock>
                 <TextBlock>2. Выбрать тип продукции и ее составляющие.</TextBlock>
@@ -21,11 +22,14 @@
                 <TextBlock>6. Продумать дизайн и реализовать главное окно WPF с навигационной панелью                </TextBlock>
 
                 <Image Source="/УМК_Цифра;component/Resources/производство.jpeg" Stretch="Fill" ></Image>
-                
-                <Button Click="Start" Background="#FFC2DCE0"  Content="Пример работы программы"/>
-            </StackPanel>
-        </ScrollViewer>
-        
+
+                <Button Style="{StaticResource GreyButton}" Click="Start" Content="Пример работы программы"/>
+                <Button Style="{StaticResource GreyButton}" Click="Button_Click_COLAB">COLAB</Button>
+                </Paragraph>
+
+            </FlowDocument>
+        </FlowDocumentReader>
+
 
     </Grid>
 </Page>

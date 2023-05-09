@@ -14,10 +14,11 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
-        <Image Source="Resources/Робот.jpg" HorizontalAlignment="Right" Grid.Column ="1"></Image>
+        <MediaElement HorizontalAlignment="Right" Grid.Column ="1" x:Name="myGif" MediaEnded="myGif_MediaEnded" UnloadedBehavior="Manual"  Source="Resources/привет.mp4"/>
+        
         <StackPanel  VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5">
             <TextBlock TextWrapping="WrapWithOverflow" Margin="10" VerticalAlignment="Center" FontSize="24" TextAlignment="Center" Foreground="Black"
-        Text="Приветствую на цифровом производстве! Вы спросите, что мы будем оцифровывать? Выбор за Вами. Давайте посмотрим на план.">
+        Text="Приветствую на цифровом производстве! Что мы будем оцифровывать? Выбор за Вами. Давайте посмотрим на план. Но для начала авторизуйтесь!">
                 <TextBlock.Background>
                     <!--Настройки градиента-->
                     <RadialGradientBrush RadiusX="1" RadiusY="1" >

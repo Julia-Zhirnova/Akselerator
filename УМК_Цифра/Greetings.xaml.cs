@@ -89,6 +89,11 @@ namespace УМК_Цифра
                 ShowPass.Visibility = Visibility.Hidden;
             }
         }
+        private void myGif_MediaEnded(object sender, RoutedEventArgs e)
+        {
+            myGif.Position = new TimeSpan(0, 0, 1);
+            myGif.Play();
+        }
 
     }
 }

@@ -17,10 +17,10 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <TextBlock FontSize="34" Style="{StaticResource Header}" TextAlignment="Center" Margin="15">
-                   ВНЕДРЕНИЕ КОМПЬЮТЕРНОГО ЗРЕНИЯ <LineBreak/> НА ЦИФРОВОМ ПРОИЗВОДСТВЕ
+                  ВСЕВИДЯЩЕЕ ОКО ПРОИЗВОДСТВА 
         </TextBlock>
         <Button Click="Button_Click" Grid.Row="1">
-            <Image Source="Resources/main.jpg"></Image>            
+            <Image Source="/Resources/ОКО.png"></Image>            
         </Button>
     </Grid>
 </Window>

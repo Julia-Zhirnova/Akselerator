@@ -24,5 +24,10 @@ namespace УМК_Цифра
             InitializeComponent();
            
         }
+        private void myGif_MediaEnded(object sender, RoutedEventArgs e)
+        {
+            myGif.Position = new TimeSpan(0, 0, 1);
+            myGif.Play();
+        }
     }
 }

@@ -5,16 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
-        Title="Exit" Height="450" Width="800">
+        Title="Exit" MinHeight="600" MinWidth="900" Height="600" Width="900"
+        d:DesignHeight="600" d:DesignWidth="900"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
-        <Image Source="Resources/Робот.jpg" HorizontalAlignment="Right" Grid.Column ="1"></Image>
-       
-            <TextBlock TextWrapping="WrapWithOverflow" Margin="10" VerticalAlignment="Center" FontSize="24" TextAlignment="Center" Foreground="Black"
-        Text="Производство приобретенных знаний без Вас встало! Вы набрали 1 балл(ов)">
+        <MediaElement HorizontalAlignment="Right" Grid.Column ="1" x:Name="myGif" MediaEnded="myGif_MediaEnded" UnloadedBehavior="Manual"  Source="Resources/пока.mp4"/>
+
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="10" VerticalAlignment="Center" FontSize="24" TextAlignment="Center" Foreground="Black"
+        Text="Производство приобретенных знаний без Вас встало! Вы набрали 0 баллов">
                 <TextBlock.Background>
                     <!--Настройки градиента-->
                     <RadialGradientBrush RadiusX="1" RadiusY="1" >

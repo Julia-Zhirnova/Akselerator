@@ -273,3 +273,4 @@ D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\УМК_�
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\УМК_Цифра.csproj.CopyComplete
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\УМК_Цифра.exe
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\УМК_Цифра.pdb
+D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Debug\УМК_Цифра.csproj.AssemblyReference.cache

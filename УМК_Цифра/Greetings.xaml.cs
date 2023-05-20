@@ -52,18 +52,18 @@ namespace УМК_Цифра
         {
             if (TxbLogin.Text == String.Empty || PsbPassword.Password == String.Empty)//Проверка на пустоту текстбокса
             MessageBox.Show("Введите данные");
+            else if ((TxbLogin.Text == "205AD" && PsbPassword.Password == "12345")
+                    || (TxbLogin.Text == "root" && PsbPassword.Password == "12345"))
+            {
+                Menu menu = new Menu();
+                menu.Show();
+                this.Close();
+            }
             else
             {
                 var userObj = BDConnect.modelOdb.Students.FirstOrDefault(x =>
                 x.Login == TxbLogin.Text && x.Password == PsbPassword.Password);
-                if ((TxbLogin.Text == "205AD" && PsbPassword.Password == "12345")
-                    || (TxbLogin.Text == "root" && PsbPassword.Password == "12345"))
-                {
-                    Menu menu = new Menu();
-                    menu.Show();
-                    this.Close();
-                }
-                else if (userObj != null)
+                if (userObj != null)
                 {
                     try
                     {

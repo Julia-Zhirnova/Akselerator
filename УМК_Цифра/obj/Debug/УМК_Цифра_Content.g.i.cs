@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("models/model1.context.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("models/model1.tt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/t.gif")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/%d0%bf%d0%be%d0%ba%d0%b0.mp4")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82.mp4")]

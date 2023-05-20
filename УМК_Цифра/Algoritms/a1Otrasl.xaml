@@ -20,11 +20,11 @@
                 <TextBlock>4. Представить план цеха в 2D/3D модели</TextBlock>
                 <TextBlock>5. Выложить на гит-репозиторий</TextBlock>
                 <TextBlock>6. Продумать дизайн и реализовать главное окно WPF с навигационной панелью                </TextBlock>
+                    <Button Style="{StaticResource GreyButton}" Click="Start" Content="Пример работы программы"/>
+                    <Button Style="{StaticResource GreyButton}" Click="Button_Click_COLAB">COLAB</Button>
+                    <Image Source="/УМК_Цифра;component/Resources/производство.jpeg" Stretch="Fill" ></Image>
 
-                <Image Source="/УМК_Цифра;component/Resources/производство.jpeg" Stretch="Fill" ></Image>
-
-                <Button Style="{StaticResource GreyButton}" Click="Start" Content="Пример работы программы"/>
-                <Button Style="{StaticResource GreyButton}" Click="Button_Click_COLAB">COLAB</Button>
+                
                 </Paragraph>
 
             </FlowDocument>

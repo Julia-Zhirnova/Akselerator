@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using УМК_Цифра.Models;
 
 namespace УМК_Цифра
 {
@@ -53,14 +54,30 @@ namespace УМК_Цифра
             MessageBox.Show("Введите данные");
             else
             {
-                if ((TxbLogin.Text == "205AD" && PsbPassword.Password == "12345") || (TxbLogin.Text == "root" && PsbPassword.Password == "12345"))
+                var userObj = BDConnect.modelOdb.Students.FirstOrDefault(x =>
+                x.Login == TxbLogin.Text && x.Password == PsbPassword.Password);
+                if ((TxbLogin.Text == "205AD" && PsbPassword.Password == "12345")
+                    || (TxbLogin.Text == "root" && PsbPassword.Password == "12345"))
                 {
                     Menu menu = new Menu();
                     menu.Show();
                     this.Close();
                 }
-                //this.Close();
-
+                else if (userObj != null)
+                {
+                    try
+                    {
+                        BDConnect.CurrentStudents = userObj;
+                        Menu menu = new Menu();
+                        menu.Show();
+                        this.Close();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Ошибка: " + ex.Message.ToString(), "Критическая работа приложения",
+                                MessageBoxButton.OK, MessageBoxImage.Warning);
+                    }
+                }
                 else MessageBox.Show("Такого пользователя нет!", "Ошибка при авторизации",
                             MessageBoxButton.OK, MessageBoxImage.Error);
             }

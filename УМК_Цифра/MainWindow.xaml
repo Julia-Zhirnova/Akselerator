@@ -5,21 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
-        Title="Старт" MinHeight="720" MinWidth="1200" Height="720" Width="1200" 
-        d:DesignHeight="720" d:DesignWidth="1200"
+        Title="Старт" MinHeight="720" MinWidth="620" Height="720" Width="620" 
+        d:DesignHeight="720" d:DesignWidth="620"
         WindowStartupLocation="CenterScreen"  
         >
-    
-    <Grid>
+
+    <Grid Background="#FF0D1623">
         
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBlock FontSize="34" Style="{StaticResource Header}" TextAlignment="Center" Margin="15">
+     
+        <TextBlock FontSize="34" Style="{StaticResource Header}" TextAlignment="Center" Margin="10" Foreground="#FFF6F3A8">
                   ВСЕВИДЯЩЕЕ ОКО ПРОИЗВОДСТВА 
         </TextBlock>
-        <Button Click="Button_Click" Grid.Row="1">
+        <Button Click="Button_Click" Grid.Row="1" BorderBrush="{x:Null}">
             <Image Source="/Resources/ОКО.png"></Image>            
         </Button>
     </Grid>

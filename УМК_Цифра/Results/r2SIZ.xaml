@@ -12,17 +12,20 @@
         <FlowDocumentReader ViewingMode="TwoPage"  IsPageViewEnabled="False" FontSize="10">
             <FlowDocument   >
                 <Paragraph TextAlignment="Left" >
-                    <TextBlock FontWeight="SemiBold" FontSize="36" > Алгоритм выбора отрасли</TextBlock>
-                    <Grid Background="#FF80D3D3" Height="10" VerticalAlignment="Bottom" Margin="10"></Grid>
-                    <TextBlock>1. Выбрать отрасль производства и придумать название компании.</TextBlock>
-                    <TextBlock>2. Выбрать тип продукции и ее составляющие.</TextBlock>
-                    <TextBlock>3. Определить структуру цеха с указанием и описанием опасных зон</TextBlock>
-                    <TextBlock>4. Представить план цеха в 2D/3D модели</TextBlock>
-                    <TextBlock>5. Выложить на гит-репозиторий</TextBlock>
-                    <TextBlock>6. Продумать дизайн и реализовать главное окно WPF с навигационной панелью</TextBlock>
-
-                    <Image Source="/УМК_Цифра;component/Resources/производство.jpeg" Stretch="Fill" ></Image>
-
+                    <TextBlock FontWeight="SemiBold" FontSize="36" >Отчет о распознавании СИЗ</TextBlock>                    
+                    <TextBlock>1. В Вашем гит-репозитории создана папка СИЗ</TextBlock>
+                    <TextBlock>2. Добавлено видео, на котором должно быть зафиксировано, как Вы зашли в свой аккаунт Roboflow,
+                        выбрали проект с обученной Вами моделью, подключили виртуальную веб-камеру, на которой 
+                        распознаны выбранные Вами СИЗ </TextBlock>
+                    <TextBlock>3. В файле Readme.md представлена следующая информация: какие СИЗ и инструменты используют на выбранном Вами производстве,
+                        сколько изображений было использовано для создани датасета, какие дополнительные преобразования к ним были применены,
+                        сколько времени обучалась модель, процент распознавания СИЗ исравнение этих данных с готовым проектам по каскам 
+                    </TextBlock>
+                    <TextBlock>4. Добавлено видео, на котором должно быть зафиксировано следуюшее: на стенде расположено несколько инструментов, они все пронумерованы,
+                        один инструмент забирают, в терминал выводится информация об изъятом инструменте, взятая из файла Excel или базы данных. Пример видео</TextBlock>
+                    <MediaElement x:Name="myGif" MediaEnded="myGif_MediaEnded" UnloadedBehavior="Manual"  Source="Resources/результат/instrument.gif"/>
+                    <TextBlock>5. Загружен в папку скрипт базы данных или файл Excel, видео до и после обработки, код Вашего проекта</TextBlock>
+                    <TextBlock>6. Представлена модель производства с интегрированными данными</TextBlock>
                     </Paragraph>
 
             </FlowDocument>

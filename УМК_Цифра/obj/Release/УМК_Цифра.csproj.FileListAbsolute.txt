@@ -84,7 +84,6 @@ D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Release\ru\Mic
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Release\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Release\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Release\УМК_Цифра.csproj.AssemblyReference.cache
-D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Release\УМК_Цифра.csproj.SuggestedBindingRedirects.cache
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Release\УМК_Цифра.exe.config
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Release\Algoritm.g.cs
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Release\Algoritms\a7Kachestvo.g.cs
@@ -188,3 +187,4 @@ D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Release\УМК
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Release\УМК_Цифра.csproj.CopyComplete
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Release\УМК_Цифра.exe
 D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\obj\Release\УМК_Цифра.pdb
+D:\worldskills\мага\magistr\CVonProduct\УМК_Цифра\bin\Release\Resources\результат\instrument.gif

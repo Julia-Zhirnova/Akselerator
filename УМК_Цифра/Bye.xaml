@@ -15,7 +15,7 @@
         </Grid.ColumnDefinitions>
         <MediaElement HorizontalAlignment="Right" Grid.Column ="1" x:Name="myGif" MediaEnded="myGif_MediaEnded" UnloadedBehavior="Manual"  Source="Resources/пока.mp4"/>
 
-        <TextBlock Style="{StaticResource Explanation}" Text="Производство приобретенных знаний без Вас встало! Вы набрали 0 баллов">
+        <TextBlock Name="TxtScore"  Style="{StaticResource Explanation}">
                 <TextBlock.Background>
                     <!--Настройки градиента-->
                     <RadialGradientBrush RadiusX="1" RadiusY="1" >

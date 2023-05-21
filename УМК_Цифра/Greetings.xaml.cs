@@ -75,11 +75,11 @@ namespace УМК_Цифра
                     catch (Exception ex)
                     {
                         MessageBox.Show("Ошибка: " + ex.Message.ToString(), "Критическая работа приложения",
-                                MessageBoxButton.OK, MessageBoxImage.Warning);
+                                MessageBoxButton.OK, MessageBoxImage.Error);
                     }
                 }
                 else MessageBox.Show("Такого пользователя нет!", "Ошибка при авторизации",
-                            MessageBoxButton.OK, MessageBoxImage.Error);
+                            MessageBoxButton.OK, MessageBoxImage.Warning);
             }
             
             

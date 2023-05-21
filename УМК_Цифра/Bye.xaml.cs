@@ -22,7 +22,7 @@ namespace УМК_Цифра
         public Bye()
         {
             InitializeComponent();
-           
+            TxtScore.Text = $"Производство приобретенных знаний без Вас встало! Вы набрали {BDConnect.CurrentStudents.ScoreOtrasl} баллов.";
         }
         private void myGif_MediaEnded(object sender, RoutedEventArgs e)
         {

@@ -23,29 +23,46 @@ namespace УМК_Цифра.Teoryas
         public t2SIZ()
         {
             InitializeComponent();
+            cb1.ItemsSource = new List<string>() { "Выбрать ответ", "Текст", "Изображение", "Аудио" };
+            cb1.SelectedIndex = 0;
+            if (Manager.User == "root") r1.IsEnabled = false;
+            else if (BDConnect.CurrentStudents.ScoreOtrasl >= 1) r1.IsEnabled = false;
+            else r1.IsEnabled = true;
         }
-
-        private void Proiz1(object sender, RoutedEventArgs e)
+        private void Rezult(object sender, RoutedEventArgs e)
         {
-            Score.ScorePoint -= 1;
-            MessageBox.Show("Неверно, Вы потеряли балл");
-        }
-        private void Proiz2(object sender, RoutedEventArgs e)
-        {
-            Score.ScorePoint += 1;
-            MessageBox.Show("Верно, Вы получили балл");
-
-        }
-        private void Proiz3(object sender, RoutedEventArgs e)
-        {
-            Score.ScorePoint -= 1;
-            MessageBox.Show("Неверно, Вы потеряли балл");
-        }
-
-        private void myGif_MediaEnded(object sender, RoutedEventArgs e)
-        {
-            myGif.Position = new TimeSpan(0, 0, 1);
-            myGif.Play();
+            if (cb1.SelectedIndex == 2)
+            {
+                if (BDConnect.CurrentStudents.ScoreOtrasl > 0)
+                    BDConnect.CurrentStudents.ScoreOtrasl = BDConnect.CurrentStudents.ScoreOtrasl + 1;
+                else BDConnect.CurrentStudents.ScoreOtrasl = 1;
+                try
+                {
+                    BDConnect.modelOdb.SaveChanges();
+                    MessageBox.Show("Отлично, Вы получили балл", "Так держать!",
+                                MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message.ToString());
+                }
+            }
+            else
+            {
+                if (BDConnect.CurrentStudents.ScoreOtrasl > 0)
+                    BDConnect.CurrentStudents.ScoreOtrasl = BDConnect.CurrentStudents.ScoreOtrasl - 1;
+                try
+                {
+                    BDConnect.modelOdb.SaveChanges();
+                    MessageBox.Show("Неверно, Вы потеряли балл", "Попробуйте снова",
+                            MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message.ToString());
+                }
+            }
+            r1.IsEnabled = false;
         }
     }
 }

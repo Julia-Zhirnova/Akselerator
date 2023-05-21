@@ -27,7 +27,8 @@ namespace УМК_Цифра.Teoryas
             InitializeComponent();
             cb1.ItemsSource = new List<string>() { "Выбрать ответ", "Tom", "Bob", "Sam" };
             cb1.SelectedIndex = 0;
-            if (Manager.User == "root" || BDConnect.CurrentStudents.ScoreOtrasl > 1) r1.IsEnabled = false;
+            if (Manager.User == "root") r1.IsEnabled = false;
+            else if (BDConnect.CurrentStudents.ScoreOtrasl >= 1) r1.IsEnabled = false;
             else r1.IsEnabled = true;
         }
        

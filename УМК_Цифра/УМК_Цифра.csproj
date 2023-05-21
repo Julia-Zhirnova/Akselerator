@@ -776,6 +776,7 @@
     <Content Include="Resources\привет.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Resources\теория\5c.jpg" />
     <Resource Include="Resources\теория\roboflow.jpg" />
     <Resource Include="Resources\ОКО.png" />
   </ItemGroup>

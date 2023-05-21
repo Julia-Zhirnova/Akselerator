@@ -14,15 +14,11 @@
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <MediaElement HorizontalAlignment="Right" Grid.Column ="1" x:Name="myGif" MediaEnded="myGif_MediaEnded" UnloadedBehavior="Manual"  Source="Resources/пока.mp4"/>
-
-        <TextBlock Name="TxtScore"  Style="{StaticResource Explanation}">
-                <TextBlock.Background>
-                    <!--Настройки градиента-->
-                    <RadialGradientBrush RadiusX="1" RadiusY="1" >
-                        <GradientStop Color="White" Offset="0.313" />
-                        <GradientStop Color="#FFC3BDBD" Offset="1" />
-                    </RadialGradientBrush>
-                </TextBlock.Background>
+        <StackPanel VerticalAlignment="Center" >
+            <TextBlock Name="TxtScore" Style="{StaticResource Explanation}">                
             </TextBlock>
+            <Button Margin="40" Click="Back" Style="{StaticResource GreyButton}" > Вернуться?</Button>
+         </StackPanel>
+        
     </Grid>
 </Window>

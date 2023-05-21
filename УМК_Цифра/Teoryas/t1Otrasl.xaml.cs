@@ -27,6 +27,8 @@ namespace УМК_Цифра.Teoryas
             InitializeComponent();
             cb1.ItemsSource = new List<string>() { "Выбрать ответ", "Tom", "Bob", "Sam" };
             cb1.SelectedIndex = 0;
+            if (Manager.User == "root" || BDConnect.CurrentStudents.ScoreOtrasl > 1) r1.IsEnabled = false;
+            else r1.IsEnabled = true;
         }
        
         private void Proiz1(object sender, RoutedEventArgs e)
@@ -65,10 +67,12 @@ namespace УМК_Цифра.Teoryas
         }
 
         private void Rezult(object sender, RoutedEventArgs e)
-        {
+        {            
             if (cb1.SelectedIndex == 2)
             {
+                if(BDConnect.CurrentStudents.ScoreOtrasl > 0)
                 BDConnect.CurrentStudents.ScoreOtrasl = BDConnect.CurrentStudents.ScoreOtrasl + 1;
+                else BDConnect.CurrentStudents.ScoreOtrasl = 1;
                 try
                 {
                     BDConnect.modelOdb.SaveChanges();
@@ -82,6 +86,7 @@ namespace УМК_Цифра.Teoryas
             }
             else
             {
+                if (BDConnect.CurrentStudents.ScoreOtrasl > 0) 
                 BDConnect.CurrentStudents.ScoreOtrasl = BDConnect.CurrentStudents.ScoreOtrasl - 1;
                 try
                 {

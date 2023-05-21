@@ -52,9 +52,9 @@ namespace УМК_Цифра
         {
             if (TxbLogin.Text == String.Empty || PsbPassword.Password == String.Empty)//Проверка на пустоту текстбокса
             MessageBox.Show("Введите данные");
-            else if ((TxbLogin.Text == "205AD" && PsbPassword.Password == "12345")
-                    || (TxbLogin.Text == "root" && PsbPassword.Password == "12345"))
+            else if (TxbLogin.Text == "root" && PsbPassword.Password == "12345")
             {
+                Manager.User = "root";
                 Menu menu = new Menu();
                 menu.Show();
                 this.Close();
@@ -68,6 +68,7 @@ namespace УМК_Цифра
                     try
                     {
                         BDConnect.CurrentStudents = userObj;
+                        Manager.User = BDConnect.CurrentStudents.FIO;
                         Menu menu = new Menu();
                         menu.Show();
                         this.Close();

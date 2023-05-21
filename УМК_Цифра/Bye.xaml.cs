@@ -22,12 +22,23 @@ namespace УМК_Цифра
         public Bye()
         {
             InitializeComponent();
-            TxtScore.Text = $"Производство приобретенных знаний без Вас встало! Вы набрали {BDConnect.CurrentStudents.ScoreOtrasl} баллов.";
+            if (Manager.User != "root") 
+            TxtScore.Text = $"Производство приобретенных знаний без Вас встало! Ваши баллы: {BDConnect.CurrentStudents.ScoreOtrasl}";
+            else
+            TxtScore.Text = "Производство приобретенных знаний без Вас встало! Вы не набрали баллы.";
+
         }
         private void myGif_MediaEnded(object sender, RoutedEventArgs e)
         {
             myGif.Position = new TimeSpan(0, 0, 1);
             myGif.Play();
+        }
+
+        private void Back(object sender, RoutedEventArgs e)
+        {
+            Greetings greetings = new Greetings();
+            greetings.Show();
+            this.Close();
         }
     }
 }

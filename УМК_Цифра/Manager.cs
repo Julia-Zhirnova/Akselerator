@@ -10,5 +10,6 @@ namespace УМК_Цифра
     class Manager
     {
         public static Frame MainFrame { get; set; }
+        public static string User { get; set; }
     }
 }

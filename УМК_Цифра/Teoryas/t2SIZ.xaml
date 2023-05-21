@@ -12,11 +12,19 @@
         <FlowDocumentReader ViewingMode="TwoPage"  IsPageViewEnabled="False" FontSize="10">
             <FlowDocument   >
                 <Paragraph TextAlignment="Left" FontFamily="Segoe UI Semibold" >
-                    <TextBlock FontWeight="SemiBold" FontSize="36" FontFamily="Segoe UI Semibold" > Цифровое производство</TextBlock>
-                    Цифровизация – это внедрение цифровых технологий в разные сферы жизни для повышения качества жизни и развития экономики. Цифровизация помогает выполнять рутинные задачи и принимать решения без участия человека.
-                Цифровизация давно вошла в нашу жизнь, что уже никого не удивляют умные дома, роботы на заводах, беспилотные автомобили, электронные дневники, онлайн обучение, кафе без официантов, или построение сложного маршрута и покупка билетов за несколько минут.
-                Цифровизация стала возможной благодаря современным цифровым технологиям:
-                Большие данные и машинное обучение, нейронные сети, искусственный интеллект, человеко-машинные интерфейсы, виртуальная реальность, интернет вещей и роботизация.
+                    <TextBlock Margin="0 10 0 10" FontWeight="SemiBold" FontSize="36" FontFamily="Segoe UI Semibold">Средства индивидуальной защиты</TextBlock>
+                    Сотрудники обрабатывающей промышленности работают в чрезвычайно опасных условиях.
+                    Несоблюдение стандартов безопасности и защиты может привести к серьезным травмам и даже летальному исходу,
+                    что должно учитываться при разработке Вашего приложения. 
+                    <Hyperlink NavigateUri="https://drive.google.com/file/d/1mr_lv2RbU6VDKPUPb-WJCgnuM5BDKP2M/view?usp=sharing">
+                        Что относится к СИЗ: классификация и особенности использования</Hyperlink>                    
+                    <TextBlock Margin="0 10 0 10" FontWeight="SemiBold" FontSize="36" FontFamily="Segoe UI Semibold">Обучение модели компьютерного зрения</TextBlock>
+                    <LineBreak /> Это процесс, с помощью которого компьютер учится распознавать определенные объекты на изображениях, другими словами способ автоматизации человеческого зрения.
+                    Roboflow Train - это автоматизированное решение для машинного обучения, которое можно использовать для преобразования любого набора данных
+                    в обученную модель компьютерного зрения, готовую к внедрению в любую систему. Для обучения модели нет необходимости в написании программного кода. 
+                    Кроме этого, для подготовки датасета Roboflow предоставляет платформу для аннотирования изображений. Однако количество бесплатных применений модели ограничено.
+                    <Image Source="/Resources/теория/roboflow.jpg" Stretch="Uniform"/>
+
                     <MediaElement x:Name="myGif" MediaEnded="myGif_MediaEnded" UnloadedBehavior="Manual"  Source="Resources/t.gif"/>
 
                     <Image Source="/УМК_Цифра;component/Resources/архитектура.jpg" Stretch="Fill" ></Image>
@@ -34,7 +42,7 @@
                         <Button Style="{StaticResource GreyButton}" x:Name="P2" Click="Proiz2">Автоматизация</Button>
                         <Button Style="{StaticResource GreyButton}" x:Name="P3" Click="Proiz3">Систематизация</Button>
                     </StackPanel>
-                    <TextBlock FontWeight="SemiBold" FontSize="36" > CV</TextBlock>
+                    <TextBlock FontWeight="SemiBold" FontSize="36" >Расположение инструментов по системе 5С</TextBlock>
 
                     <Grid Background="#FF80D3D3" Height="10" VerticalAlignment="Bottom" Margin="10"></Grid>
 

@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @17 @18 Member=FIO)" Category="CodeSchema_Property" Bounds="325.218022693361,-785.688639381484,98.3699999999999,26" CodeSchemaProperty_IsPublic="True" CommonLabel="FIO" Icon="Microsoft.VisualStudio.Property.Public" Label="FIO : string" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=17 StartCharacterOffset=22 EndLineNumber=17 EndCharacterOffset=25)" />
+    <Node Id="(@1 @17 @18 Member=Gihub)" Category="CodeSchema_Property" Bounds="325.218025948569,-757.688639381484,112.043333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Gihub" Icon="Microsoft.VisualStudio.Property.Public" Label="Gihub : string" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=21 StartCharacterOffset=22 EndLineNumber=21 EndCharacterOffset=27)" />
+    <Node Id="(@1 @17 @18 Member=Id)" Category="CodeSchema_Property" Bounds="325.218019438152,-729.688639381484,74.1966666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Id" Icon="Microsoft.VisualStudio.Property.Public" Label="Id : int" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=16 StartCharacterOffset=19 EndLineNumber=16 EndCharacterOffset=21)" />
+    <Node Id="(@1 @17 @18 Member=Login)" Category="CodeSchema_Property" Bounds="325.218108956382,-701.688639381484,109.713333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Login" Icon="Microsoft.VisualStudio.Property.Public" Label="Login : string" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=18 StartCharacterOffset=22 EndLineNumber=18 EndCharacterOffset=27)" />
+    <Node Id="(@1 @17 @18 Member=Password)" Category="CodeSchema_Property" Bounds="325.218078031902,-673.688639381484,129.816666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Password" Icon="Microsoft.VisualStudio.Property.Public" Label="Password : string" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=19 StartCharacterOffset=22 EndLineNumber=19 EndCharacterOffset=30)" />
+    <Node Id="(@1 @17 @18 Member=ScoreKachestvo)" Category="CodeSchema_Property" Bounds="325.218258463542,-645.688639381484,152.326666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="ScoreKachestvo" Icon="Microsoft.VisualStudio.Property.Public" Label="ScoreKachestvo : int?" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=28 StartCharacterOffset=29 EndLineNumber=28 EndCharacterOffset=43)" />
+    <Node Id="(@1 @17 @18 Member=ScoreKod)" Category="CodeSchema_Property" Bounds="325.218087565104,-617.688639381484,119.476666666666,26" CodeSchemaProperty_IsPublic="True" CommonLabel="ScoreKod" Icon="Microsoft.VisualStudio.Property.Public" Label="ScoreKod : int?" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=29 StartCharacterOffset=29 EndLineNumber=29 EndCharacterOffset=37)" />
+    <Node Id="(@1 @17 @18 Member=ScoreOtrasl)" Category="CodeSchema_Property" Bounds="325.218273111979,-589.688639381484,130.106666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="ScoreOtrasl" Icon="Microsoft.VisualStudio.Property.Public" Label="ScoreOtrasl : int?" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=22 StartCharacterOffset=29 EndLineNumber=22 EndCharacterOffset=40)" />
+    <Node Id="(@1 @17 @18 Member=ScorePoint)" Category="CodeSchema_Property" Bounds="325.218074544271,-561.688639381484,125.783333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="ScorePoint" Icon="Microsoft.VisualStudio.Property.Public" Label="ScorePoint : int?" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=20 StartCharacterOffset=29 EndLineNumber=20 EndCharacterOffset=39)" />
+    <Node Id="(@1 @17 @18 Member=ScoreRazmer)" Category="CodeSchema_Property" Bounds="325.218120117187,-533.688624122694,138.21,26" CodeSchemaProperty_IsPublic="True" CommonLabel="ScoreRazmer" Icon="Microsoft.VisualStudio.Property.Public" Label="ScoreRazmer : int?" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=26 StartCharacterOffset=29 EndLineNumber=26 EndCharacterOffset=40)" />
+    <Node Id="(@1 @17 @18 Member=ScoreSIZ)" Category="CodeSchema_Property" Bounds="325.218118489584,-477.688608863905,115.123333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="ScoreSIZ" Icon="Microsoft.VisualStudio.Property.Public" Label="ScoreSIZ : int?" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=23 StartCharacterOffset=29 EndLineNumber=23 EndCharacterOffset=37)" />
+    <Node Id="(@1 @17 @18 Member=ScoreShablon)" Category="CodeSchema_Property" Bounds="325.218064778646,-505.688608863905,141.763333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="ScoreShablon" Icon="Microsoft.VisualStudio.Property.Public" Label="ScoreShablon : int?" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=25 StartCharacterOffset=29 EndLineNumber=25 EndCharacterOffset=41)" />
+    <Node Id="(@1 @17 @18 Member=ScoreZone)" Category="CodeSchema_Property" Bounds="325.218133138021,-449.688608863905,125.653333333334,26" CodeSchemaProperty_IsPublic="True" CommonLabel="ScoreZone" Icon="Microsoft.VisualStudio.Property.Public" Label="ScoreZone : int?" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=24 StartCharacterOffset=29 EndLineNumber=24 EndCharacterOffset=38)" />
+    <Node Id="(@1 @17 @18 Member=ScoreZvet)" Category="CodeSchema_Property" Bounds="325.218048502604,-421.688608863905,121.646666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="ScoreZvet" Icon="Microsoft.VisualStudio.Property.Public" Label="ScoreZvet : int?" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=27 StartCharacterOffset=29 EndLineNumber=27 EndCharacterOffset=38)" />
+    <Node Id="(@1 @17 @22 @49)" Category="CodeSchema_Method" Bounds="328.246041317157,-907.504491552909,146.343333333333,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="YMK_ZhifraEntities" Icon="Microsoft.VisualStudio.Method.Public" Label="YMK_ZhifraEntities()" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Model1.Context.cs StartLineNumber=17 StartCharacterOffset=15 EndLineNumber=17 EndCharacterOffset=33)" UseManualLocation="True" />
+    <Node Id="(@1 @17 @22 Member=(Name=OnModelCreating OverloadingParameters=[(@24 Namespace=System.Data.Entity Type=DbModelBuilder)]))" Category="CodeSchema_Method" Bounds="322.189744670151,-938.53255880138,261.396666666667,26" CodeSchemaProperty_IsProtected="True" CommonLabel="OnModelCreating" Icon="Microsoft.VisualStudio.Method.Protected" IsOverloaded="True" Label="OnModelCreating(DbModelBuilder) : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Model1.Context.cs StartLineNumber=22 StartCharacterOffset=32 EndLineNumber=22 EndCharacterOffset=47)" UseManualLocation="True" />
+    <Node Id="(@1 @17 @22 Member=Students)" Category="CodeSchema_Property" Bounds="325.218041992187,-393.688639381484,191.05,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="Students" Icon="Microsoft.VisualStudio.Property.Public" Label="Students : DbSet&lt;Students&gt;" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Model1.Context.cs StartLineNumber=27 StartCharacterOffset=39 EndLineNumber=27 EndCharacterOffset=47)" />
+    <Node Id="(@1 @17 @22 Member=sysdiagrams)" Category="CodeSchema_Property" Bounds="325.218087565104,-365.688639381484,228.476666666666,26" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="sysdiagrams" Icon="Microsoft.VisualStudio.Property.Public" Label="sysdiagrams : DbSet&lt;sysdiagrams&gt;" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Model1.Context.cs StartLineNumber=28 StartCharacterOffset=42 EndLineNumber=28 EndCharacterOffset=53)" />
+    <Node Id="(@1 @2 @11 @29)" Category="CodeSchema_Method" Bounds="325.217928292319,-1048.27286991533,300.343333333334,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="System.Windows.Markup.IComponentConnector.Connect" Icon="Microsoft.VisualStudio.Method.Private" Label="IComponentConnector.Connect(int, object) : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/MainWindow.g.i.cs StartLineNumber=69 StartCharacterOffset=55 EndLineNumber=69 EndCharacterOffset=62)" UseManualLocation="True" />
+    <Node Id="(@1 @2 @11 @49)" Category="CodeSchema_Method" Bounds="328.246050065529,-971.075971929945,118.496666666666,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="MainWindow" Icon="Microsoft.VisualStudio.Method.Public" Label="MainWindow()" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/MainWindow.xaml.cs StartLineNumber=9 StartCharacterOffset=15 EndLineNumber=9 EndCharacterOffset=25)" UseManualLocation="True" />
+    <Node Id="(@1 @2 @11 @56)" Category="CodeSchema_Field" Bounds="334.302235018198,-1084.43635632871,158.933333333334,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="_contentLoaded" Icon="Microsoft.VisualStudio.Field.Private" Label="_contentLoaded : bool" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/MainWindow.g.i.cs StartLineNumber=42 StartCharacterOffset=21 EndLineNumber=42 EndCharacterOffset=35)" UseManualLocation="True" />
+    <Node Id="(@1 @2 @11 @66)" Category="CodeSchema_Method" Bounds="328.246232357197,-1009.67442092264,186.453333333331,26" CodeSchemaProperty_IsPublic="True" CommonLabel="InitializeComponent" Icon="Microsoft.VisualStudio.Method.Public" Label="InitializeComponent() : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/MainWindow.g.i.cs StartLineNumber=49 StartCharacterOffset=20 EndLineNumber=49 EndCharacterOffset=39)" UseManualLocation="True" />
+    <Node Id="@10" Category="CodeSchema_Class" Bounds="959.695633111373,-726.15263488504,91.8833333333314,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Greetings" ContainsChildren="True" Icon="Microsoft.VisualStudio.Class.Public" Label="Greetings" MergableData="Microsoft.VisualStudio.Progression.ContextSynchronizer+MergablePropertyData" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Greetings.xaml.cs StartLineNumber=21 StartCharacterOffset=25 EndLineNumber=21 EndCharacterOffset=34)" />
+    <Node Id="@12" Category="CodeSchema_Class" Bounds="316.189728190104,-1140.16111074219,1318.6987093099,1331.03415219307" CodeSchemaProperty_IsPublic="True" CommonLabel="MainWindow" ContainsChildren="True" Group="Expanded" Icon="Microsoft.VisualStudio.Class.Public" Label="MainWindow" LayoutSettings="List" MergableData="Microsoft.VisualStudio.Progression.ContextSynchronizer+MergablePropertyData" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/MainWindow.xaml.cs StartLineNumber=7 StartCharacterOffset=25 EndLineNumber=7 EndCharacterOffset=35)" UseManualLocation="True" />
+    <Node Id="@14" Category="CodeSchema_Class" Bounds="686.690384087935,-547.12577941629,71.6333333333332,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Menu" ContainsChildren="True" Icon="Microsoft.VisualStudio.Class.Public" Label="Menu" MergableData="Microsoft.VisualStudio.Progression.ContextSynchronizer+MergablePropertyData" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Menu.xaml.cs StartLineNumber=20 StartCharacterOffset=25 EndLineNumber=20 EndCharacterOffset=29)" />
+    <Node Id="@16" Category="CodeSchema_Class" Bounds="1041.25727536398,-521.126084592071,72.96,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Result" ContainsChildren="True" Icon="Microsoft.VisualStudio.Class.Public" Label="Result" MergableData="Microsoft.VisualStudio.Progression.ContextSynchronizer+MergablePropertyData" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Result.xaml.cs StartLineNumber=21 StartCharacterOffset=25 EndLineNumber=21 EndCharacterOffset=31)" />
+    <Node Id="@19" Category="CodeSchema_Class" Bounds="333.595919828777,-812.688739381484,87.1366666666672,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Students" ContainsChildren="True" Icon="Microsoft.VisualStudio.Class.Public" Label="Students" MergableData="Microsoft.VisualStudio.Progression.ContextSynchronizer+MergablePropertyData" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Students.cs StartLineNumber=14 StartCharacterOffset=25 EndLineNumber=14 EndCharacterOffset=33)" UseManualLocation="True" />
+    <Node Id="@21" Category="CodeSchema_Class" Bounds="1041.25717770773,-181.12724426004,75.5100000000002,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Teorya" ContainsChildren="True" Icon="Microsoft.VisualStudio.Class.Public" Label="Teorya" MergableData="Microsoft.VisualStudio.Progression.ContextSynchronizer+MergablePropertyData" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Teorya.xaml.cs StartLineNumber=22 StartCharacterOffset=25 EndLineNumber=22 EndCharacterOffset=31)" />
+    <Node Id="@23" Category="CodeSchema_Class" Bounds="330.926328311072,-1114.16104362149,139.103333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="YMK_ZhifraEntities" ContainsChildren="True" Icon="Microsoft.VisualStudio.Class.Public" Label="YMK_ZhifraEntities" MergableData="Microsoft.VisualStudio.Progression.ContextSynchronizer+MergablePropertyData" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Models/Model1.Context.cs StartLineNumber=15 StartCharacterOffset=25 EndLineNumber=15 EndCharacterOffset=43)" UseManualLocation="True" />
+    <Node Id="@28" Category="CodeSchema_Method" Bounds="686.690606255904,-435.125993039336,321.463333333333,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="MainWindow_Closing" Icon="Microsoft.VisualStudio.Method.Private" Label="MainWindow_Closing(object, CancelEventArgs) : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Menu.xaml.cs StartLineNumber=28 StartCharacterOffset=13 EndLineNumber=28 EndCharacterOffset=31)" />
+    <Node Id="@3" Category="CodeSchema_Struct" Bounds="1349.83722083924,-493.126450803008,114.896666666667,26" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="WINDOWPOS" Icon="Microsoft.VisualStudio.Struct.Internal" Label="WINDOWPOS" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Result.xaml.cs StartLineNumber=36 StartCharacterOffset=24 EndLineNumber=36 EndCharacterOffset=33)" />
+    <Node Id="@30" Category="CodeSchema_Method" Bounds="709.802241998091,-241.126443173614,300.343333333333,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="System.Windows.Markup.IComponentConnector.Connect" Icon="Microsoft.VisualStudio.Method.Private" Label="IComponentConnector.Connect(int, object) : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Algoritm.g.i.cs StartLineNumber=77 StartCharacterOffset=55 EndLineNumber=77 EndCharacterOffset=62)" />
+    <Node Id="@31" Category="CodeSchema_Method" Bounds="706.402156548872,-41.1261151096489,300.343333333333,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="System.Windows.Markup.IComponentConnector.Connect" Icon="Microsoft.VisualStudio.Method.Private" Label="IComponentConnector.Connect(int, object) : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Control.g.i.cs StartLineNumber=77 StartCharacterOffset=55 EndLineNumber=77 EndCharacterOffset=62)" />
+    <Node Id="@32" Category="CodeSchema_Method" Bounds="1287.94073076762,-1013.73075988504,300.343333333334,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="System.Windows.Markup.IComponentConnector.Connect" Icon="Microsoft.VisualStudio.Method.Private" Label="IComponentConnector.Connect(int, object) : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Greetings.g.i.cs StartLineNumber=125 StartCharacterOffset=55 EndLineNumber=125 EndCharacterOffset=62)" UseManualLocation="True" />
+    <Node Id="@33" Category="CodeSchema_Method" Bounds="686.69060869731,-491.125916745391,300.343333333333,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="System.Windows.Markup.IComponentConnector.Connect" Icon="Microsoft.VisualStudio.Method.Private" Label="IComponentConnector.Connect(int, object) : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Menu.g.i.cs StartLineNumber=69 StartCharacterOffset=55 EndLineNumber=69 EndCharacterOffset=62)" />
+    <Node Id="@34" Category="CodeSchema_Method" Bounds="1041.25725908793,-297.126817013946,300.343333333333,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="System.Windows.Markup.IComponentConnector.Connect" Icon="Microsoft.VisualStudio.Method.Private" Label="IComponentConnector.Connect(int, object) : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Result.g.i.cs StartLineNumber=77 StartCharacterOffset=55 EndLineNumber=77 EndCharacterOffset=62)" />
+    <Node Id="@35" Category="CodeSchema_Method" Bounds="1041.25719805278,98.8727557399604,300.343333333333,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="System.Windows.Markup.IComponentConnector.Connect" Icon="Microsoft.VisualStudio.Method.Private" Label="IComponentConnector.Connect(int, object) : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Teorya.g.i.cs StartLineNumber=77 StartCharacterOffset=55 EndLineNumber=77 EndCharacterOffset=62)" />
+    <Node Id="@38" Category="CodeSchema_Method" Bounds="863.843061496788,-630.47294738504,296.900000000001,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="BtnInLogin_Click" Icon="Microsoft.VisualStudio.Method.Private" Label="BtnInLogin_Click(object, RoutedEventArgs) : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Greetings.xaml.cs StartLineNumber=50 StartCharacterOffset=21 EndLineNumber=50 EndCharacterOffset=37)" UseManualLocation="True" />
+    <Node Id="@39" Category="CodeSchema_Method" Bounds="644.58228024679,-1065.4361551529,984.30625,1250.30917167969" CodeSchemaProperty_IsPrivate="True" CommonLabel="Button_Click" Group="Expanded" Icon="Microsoft.VisualStudio.Method.Private" Label="Button_Click(object, RoutedEventArgs) : void" LayoutSettings="ForceDirected" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/MainWindow.xaml.cs StartLineNumber=13 StartCharacterOffset=21 EndLineNumber=13 EndCharacterOffset=33)" UseManualLocation="True" />
+    <Node Id="@4" Category="CodeSchema_Struct" Bounds="1349.83715980408,-125.127366330352,114.896666666667,26" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsInternal="True" CommonLabel="WINDOWPOS" Icon="Microsoft.VisualStudio.Struct.Internal" Label="WINDOWPOS" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Teorya.xaml.cs StartLineNumber=38 StartCharacterOffset=24 EndLineNumber=38 EndCharacterOffset=33)" />
+    <Node Id="@40" Category="CodeSchema_Method" Bounds="686.690564751997,-379.125879416289,346.566666666667,197.999574389648" CodeSchemaProperty_IsPrivate="True" CommonLabel="Button_Click_Algoritm" Group="Expanded" Icon="Microsoft.VisualStudio.Method.Private" Label="Button_Click_Algoritm(object, RoutedEventArgs) : void" LayoutSettings="List" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Menu.xaml.cs StartLineNumber=41 StartCharacterOffset=21 EndLineNumber=41 EndCharacterOffset=42)" />
+    <Node Id="@41" Category="CodeSchema_Method" Bounds="686.690327121789,-179.126215109648,339.766666666667,198.0002" CodeSchemaProperty_IsPrivate="True" CommonLabel="Button_Click_Control" Group="Expanded" Icon="Microsoft.VisualStudio.Method.Private" Label="Button_Click_Control(object, RoutedEventArgs) : void" LayoutSettings="List" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Menu.xaml.cs StartLineNumber=55 StartCharacterOffset=21 EndLineNumber=55 EndCharacterOffset=41)" />
+    <Node Id="@42" Category="CodeSchema_Method" Bounds="1035.2571296934,-547.126101734936,435.4767578125,337.99938472099" CodeSchemaProperty_IsPrivate="True" CommonLabel="Button_Click_Result" Group="Expanded" Icon="Microsoft.VisualStudio.Method.Private" Label="Button_Click_Result(object, RoutedEventArgs) : void" LayoutSettings="List" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Menu.xaml.cs StartLineNumber=48 StartCharacterOffset=21 EndLineNumber=48 EndCharacterOffset=40)" />
+    <Node Id="@43" Category="CodeSchema_Method" Bounds="1035.25696774679,-207.127466330351,435.476858723958,366.000282857135" CodeSchemaProperty_IsPrivate="True" CommonLabel="Button_Click_Teorya" Group="Expanded" Icon="Microsoft.VisualStudio.Method.Private" Label="Button_Click_Teorya(object, RoutedEventArgs) : void" LayoutSettings="List" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Menu.xaml.cs StartLineNumber=33 StartCharacterOffset=21 EndLineNumber=33 EndCharacterOffset=40)" />
+    <Node Id="@44" Category="CodeSchema_Method" Bounds="699.188901340539,-1025.43583801004,312.43,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="myGif_MediaEnded" Icon="Microsoft.VisualStudio.Method.Private" Label="myGif_MediaEnded(object, RoutedEventArgs) : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Greetings.xaml.cs StartLineNumber=109 StartCharacterOffset=21 EndLineNumber=109 EndCharacterOffset=37)" UseManualLocation="True" />
+    <Node Id="@45" Category="CodeSchema_Method" Bounds="1321.65853024679,-751.88310363504,287.23,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="SeekPass_Click" Icon="Microsoft.VisualStudio.Method.Private" Label="SeekPass_Click(object, RoutedEventArgs) : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Greetings.xaml.cs StartLineNumber=87 StartCharacterOffset=21 EndLineNumber=87 EndCharacterOffset=35)" UseManualLocation="True" />
+    <Node Id="@46" Category="CodeSchema_Method" Bounds="1308.41922035096,-639.88310363504,291.206666666665,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="ShowPass_Click" Icon="Microsoft.VisualStudio.Method.Private" Label="ShowPass_Click(object, RoutedEventArgs) : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Greetings.xaml.cs StartLineNumber=98 StartCharacterOffset=21 EndLineNumber=98 EndCharacterOffset=35)" UseManualLocation="True" />
+    <Node Id="@47" Category="CodeSchema_Method" Bounds="1041.25727292257,-325.126817013946,306.58,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="DragHook" Icon="Microsoft.VisualStudio.Method.Private" Label="DragHook(IntPtr, int, IntPtr, IntPtr, ref bool) : IntPtr" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Result.xaml.cs StartLineNumber=47 StartCharacterOffset=15 EndLineNumber=47 EndCharacterOffset=23)" />
+    <Node Id="@48" Category="CodeSchema_Method" Bounds="1041.25696774679,70.8727557399604,306.58,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="DragHook" Icon="Microsoft.VisualStudio.Method.Private" Label="DragHook(IntPtr, int, IntPtr, IntPtr, ref bool) : IntPtr" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Teorya.xaml.cs StartLineNumber=49 StartCharacterOffset=15 EndLineNumber=49 EndCharacterOffset=23)" />
+    <Node Id="@50" Category="CodeSchema_Method" Bounds="709.802220839237,-269.12626769754,94.4666666666667,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Algoritm" Icon="Microsoft.VisualStudio.Method.Public" Label="Algoritm()" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Algoritm.xaml.cs StartLineNumber=21 StartCharacterOffset=15 EndLineNumber=21 EndCharacterOffset=23)" />
+    <Node Id="@51" Category="CodeSchema_Method" Bounds="706.402110975956,-69.1261151096489,87.666666666667,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Control" Icon="Microsoft.VisualStudio.Method.Public" Label="Control()" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Control.xaml.cs StartLineNumber=21 StartCharacterOffset=15 EndLineNumber=21 EndCharacterOffset=22)" />
+    <Node Id="@52" Category="CodeSchema_Method" Bounds="814.976023736373,-742.47294738504,99.123333333333,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Greetings" Icon="Microsoft.VisualStudio.Method.Public" Label="Greetings()" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Greetings.xaml.cs StartLineNumber=23 StartCharacterOffset=15 EndLineNumber=23 EndCharacterOffset=24)" />
+    <Node Id="@53" Category="CodeSchema_Method" Bounds="686.689646783247,-407.125993039336,78.8733333333334,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Menu" Icon="Microsoft.VisualStudio.Method.Public" Label="Menu()" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Menu.xaml.cs StartLineNumber=22 StartCharacterOffset=15 EndLineNumber=22 EndCharacterOffset=19)" />
+    <Node Id="@54" Category="CodeSchema_Method" Bounds="1041.25727048116,-241.126817013946,80.1999999999998,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Result" Icon="Microsoft.VisualStudio.Method.Public" Label="Result()" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Result.xaml.cs StartLineNumber=23 StartCharacterOffset=15 EndLineNumber=23 EndCharacterOffset=21)" />
+    <Node Id="@55" Category="CodeSchema_Method" Bounds="1349.8371288796,-153.127366330352,82.75,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Teorya" Icon="Microsoft.VisualStudio.Method.Public" Label="Teorya()" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Teorya.xaml.cs StartLineNumber=26 StartCharacterOffset=15 EndLineNumber=26 EndCharacterOffset=21)" />
+    <Node Id="@57" Category="CodeSchema_Field" Bounds="709.802224908247,-325.12577941629,158.933333333333,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="_contentLoaded" Icon="Microsoft.VisualStudio.Field.Private" Label="_contentLoaded : bool" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Algoritm.g.i.cs StartLineNumber=50 StartCharacterOffset=21 EndLineNumber=50 EndCharacterOffset=35)" />
+    <Node Id="@58" Category="CodeSchema_Field" Bounds="706.401834283247,-125.126115109649,158.933333333333,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="_contentLoaded" Icon="Microsoft.VisualStudio.Field.Private" Label="_contentLoaded : bool" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Control.g.i.cs StartLineNumber=50 StartCharacterOffset=21 EndLineNumber=50 EndCharacterOffset=35)" />
+    <Node Id="@59" Category="CodeSchema_Field" Bounds="925.653543267622,-969.43583801004,158.933333333334,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="_contentLoaded" Icon="Microsoft.VisualStudio.Field.Private" Label="_contentLoaded : bool" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Greetings.g.i.cs StartLineNumber=98 StartCharacterOffset=21 EndLineNumber=98 EndCharacterOffset=35)" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="709.80222572205,-353.12577941629,87.2266666666665,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Algoritm" ContainsChildren="True" Icon="Microsoft.VisualStudio.Class.Public" Label="Algoritm" MergableData="Microsoft.VisualStudio.Progression.ContextSynchronizer+MergablePropertyData" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Algoritm.xaml.cs StartLineNumber=19 StartCharacterOffset=25 EndLineNumber=19 EndCharacterOffset=33)" />
+    <Node Id="@60" Category="CodeSchema_Field" Bounds="686.69053057231,-519.126023556915,158.933333333333,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="_contentLoaded" Icon="Microsoft.VisualStudio.Field.Private" Label="_contentLoaded : bool" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Menu.g.i.cs StartLineNumber=42 StartCharacterOffset=21 EndLineNumber=42 EndCharacterOffset=35)" />
+    <Node Id="@61" Category="CodeSchema_Field" Bounds="1041.25742510356,-493.126694943633,158.933333333333,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="_contentLoaded" Icon="Microsoft.VisualStudio.Field.Private" Label="_contentLoaded : bool" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Result.g.i.cs StartLineNumber=50 StartCharacterOffset=21 EndLineNumber=50 EndCharacterOffset=35)" />
+    <Node Id="@62" Category="CodeSchema_Field" Bounds="1041.25718096293,-153.12724426004,158.933333333333,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="_contentLoaded" Icon="Microsoft.VisualStudio.Field.Private" Label="_contentLoaded : bool" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Teorya.g.i.cs StartLineNumber=50 StartCharacterOffset=21 EndLineNumber=50 EndCharacterOffset=35)" />
+    <Node Id="@63" Category="CodeSchema_Field" Bounds="680.689646783248,-573.126201734935,796.044240722656,737.999118261719" CodeSchemaProperty_IsInternal="True" CommonLabel="BtnInLogin" Group="Expanded" Icon="Microsoft.VisualStudio.Field.Internal" Label="BtnInLogin : Button" LayoutSettings="List" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Greetings.g.i.cs StartLineNumber=93 StartCharacterOffset=48 EndLineNumber=93 EndCharacterOffset=58)" UseManualLocation="True" />
+    <Node Id="@64" Category="CodeSchema_Field" Bounds="1041.25713132101,-465.126694943633,111.04,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="hWnd" Icon="Microsoft.VisualStudio.Field.Private" Label="hWnd : IntPtr" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Result.xaml.cs StartLineNumber=29 StartCharacterOffset=15 EndLineNumber=29 EndCharacterOffset=19)" />
+    <Node Id="@65" Category="CodeSchema_Field" Bounds="1041.25719235616,-125.12724426004,111.04,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="hWnd" Icon="Microsoft.VisualStudio.Field.Private" Label="hWnd : IntPtr" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Teorya.xaml.cs StartLineNumber=32 StartCharacterOffset=15 EndLineNumber=32 EndCharacterOffset=19)" />
+    <Node Id="@67" Category="CodeSchema_Method" Bounds="709.802234673872,-213.126405026641,186.453333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="InitializeComponent" Icon="Microsoft.VisualStudio.Method.Public" Label="InitializeComponent() : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Algoritm.g.i.cs StartLineNumber=57 StartCharacterOffset=20 EndLineNumber=57 EndCharacterOffset=39)" />
+    <Node Id="@68" Category="CodeSchema_Method" Bounds="706.401844048872,-13.1261151096489,186.453333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="InitializeComponent" Icon="Microsoft.VisualStudio.Method.Public" Label="InitializeComponent() : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Control.g.i.cs StartLineNumber=57 StartCharacterOffset=20 EndLineNumber=57 EndCharacterOffset=39)" />
+    <Node Id="@69" Category="CodeSchema_Method" Bounds="714.506824517623,-686.47294738504,186.453333333331,26" CodeSchemaProperty_IsPublic="True" CommonLabel="InitializeComponent" Icon="Microsoft.VisualStudio.Method.Public" Label="InitializeComponent() : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Greetings.g.i.cs StartLineNumber=105 StartCharacterOffset=20 EndLineNumber=105 EndCharacterOffset=39)" UseManualLocation="True" />
+    <Node Id="@70" Category="CodeSchema_Method" Bounds="686.690601373091,-463.125993039336,186.453333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="InitializeComponent" Icon="Microsoft.VisualStudio.Method.Public" Label="InitializeComponent() : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Menu.g.i.cs StartLineNumber=49 StartCharacterOffset=20 EndLineNumber=49 EndCharacterOffset=39)" />
+    <Node Id="@71" Category="CodeSchema_Method" Bounds="1041.2571296934,-269.126817013946,186.453333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="InitializeComponent" Icon="Microsoft.VisualStudio.Method.Public" Label="InitializeComponent() : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Result.g.i.cs StartLineNumber=57 StartCharacterOffset=20 EndLineNumber=57 EndCharacterOffset=39)" />
+    <Node Id="@72" Category="CodeSchema_Method" Bounds="1041.25719072856,126.872633669648,186.453333333333,26" CodeSchemaProperty_IsPublic="True" CommonLabel="InitializeComponent" Icon="Microsoft.VisualStudio.Method.Public" Label="InitializeComponent() : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Teorya.g.i.cs StartLineNumber=57 StartCharacterOffset=20 EndLineNumber=57 EndCharacterOffset=39)" />
+    <Node Id="@74" Category="CodeSchema_Field" Bounds="709.802221653039,-297.126084592071,142.26,26" CodeSchemaProperty_IsInternal="True" CommonLabel="MainFrame" Icon="Microsoft.VisualStudio.Field.Internal" Label="MainFrame : Frame" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Algoritm.g.i.cs StartLineNumber=45 StartCharacterOffset=47 EndLineNumber=45 EndCharacterOffset=56)" />
+    <Node Id="@75" Category="CodeSchema_Field" Bounds="706.401831028039,-97.126115109649,142.26,26" CodeSchemaProperty_IsInternal="True" CommonLabel="MainFrame" Icon="Microsoft.VisualStudio.Field.Internal" Label="MainFrame : Frame" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Control.g.i.cs StartLineNumber=45 StartCharacterOffset=47 EndLineNumber=45 EndCharacterOffset=56)" />
+    <Node Id="@76" Category="CodeSchema_Field" Bounds="1041.25729977804,-437.126694943633,142.26,26" CodeSchemaProperty_IsInternal="True" CommonLabel="MainFrame" Icon="Microsoft.VisualStudio.Field.Internal" Label="MainFrame : Frame" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Result.g.i.cs StartLineNumber=45 StartCharacterOffset=47 EndLineNumber=45 EndCharacterOffset=56)" />
+    <Node Id="@77" Category="CodeSchema_Field" Bounds="1041.25717770773,-97.1272442600396,142.26,26" CodeSchemaProperty_IsInternal="True" CommonLabel="MainFrame" Icon="Microsoft.VisualStudio.Field.Internal" Label="MainFrame : Frame" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Teorya.g.i.cs StartLineNumber=45 StartCharacterOffset=47 EndLineNumber=45 EndCharacterOffset=56)" />
+    <Node Id="@78" Category="CodeSchema_Field" Bounds="664.582280246789,-910.47294738504,157.07,26" CodeSchemaProperty_IsInternal="True" CommonLabel="myGif" Icon="Microsoft.VisualStudio.Field.Internal" Label="myGif : MediaElement" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Greetings.g.i.cs StartLineNumber=45 StartCharacterOffset=54 EndLineNumber=45 EndCharacterOffset=59)" UseManualLocation="True" />
+    <Node Id="@79" Category="CodeSchema_Field" Bounds="1323.32226071554,-863.88408019754,187.549999999999,26" CodeSchemaProperty_IsInternal="True" CommonLabel="PsbPassword" Icon="Microsoft.VisualStudio.Field.Internal" Label="PsbPassword : PasswordBox" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Greetings.g.i.cs StartLineNumber=69 StartCharacterOffset=53 EndLineNumber=69 EndCharacterOffset=64)" UseManualLocation="True" />
+    <Node Id="@8" Category="CodeSchema_Class" Bounds="706.402176893924,-153.126115109649,80.4266666666667,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Control" ContainsChildren="True" Icon="Microsoft.VisualStudio.Class.Public" Label="Control" MergableData="Microsoft.VisualStudio.Progression.ContextSynchronizer+MergablePropertyData" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Control.xaml.cs StartLineNumber=19 StartCharacterOffset=25 EndLineNumber=19 EndCharacterOffset=32)" />
+    <Node Id="@80" Category="CodeSchema_Field" Bounds="1041.25732907491,-69.1272442600396,149.07,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="screenhight" Icon="Microsoft.VisualStudio.Field.Private" Label="screenhight : double" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Teorya.xaml.cs StartLineNumber=25 StartCharacterOffset=15 EndLineNumber=25 EndCharacterOffset=26)" />
+    <Node Id="@81" Category="CodeSchema_Field" Bounds="1041.2571679421,-41.1272442600396,153.49,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="screenWidth" Icon="Microsoft.VisualStudio.Field.Private" Label="screenWidth : double" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Teorya.xaml.cs StartLineNumber=24 StartCharacterOffset=15 EndLineNumber=24 EndCharacterOffset=26)" />
+    <Node Id="@82" Category="CodeSchema_Field" Bounds="1323.88390134054,-807.88408019754,133.290000000001,26" CodeSchemaProperty_IsInternal="True" CommonLabel="SeekPass" Icon="Microsoft.VisualStudio.Field.Internal" Label="SeekPass : Button" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Greetings.g.i.cs StartLineNumber=85 StartCharacterOffset=48 EndLineNumber=85 EndCharacterOffset=56)" UseManualLocation="True" />
+    <Node Id="@83" Category="CodeSchema_Method" Bounds="1349.83738766866,-521.126084592071,109.03,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Show" Icon="Microsoft.VisualStudio.Method.Public" Label="Show() : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Result.xaml.cs StartLineNumber=110 StartCharacterOffset=20 EndLineNumber=110 EndCharacterOffset=24)" />
+    <Node Id="@84" Category="CodeSchema_Method" Bounds="1349.83714352804,-181.127366330352,109.03,26" CodeSchemaProperty_IsPublic="True" CommonLabel="Show" Icon="Microsoft.VisualStudio.Method.Public" Label="Show() : void" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Teorya.xaml.cs StartLineNumber=112 StartCharacterOffset=20 EndLineNumber=112 EndCharacterOffset=24)" />
+    <Node Id="@85" Category="CodeSchema_Field" Bounds="1324.22466956971,-695.88310363504,137.266666666666,26" CodeSchemaProperty_IsInternal="True" CommonLabel="ShowPass" Icon="Microsoft.VisualStudio.Field.Internal" Label="ShowPass : Button" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Greetings.g.i.cs StartLineNumber=77 StartCharacterOffset=48 EndLineNumber=77 EndCharacterOffset=56)" UseManualLocation="True" />
+    <Node Id="@86" Category="CodeSchema_Field" Bounds="1041.25742835877,-409.126817013946,120.606666666667,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="sizingEdge" Icon="Microsoft.VisualStudio.Field.Private" Label="sizingEdge : int" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Result.xaml.cs StartLineNumber=32 StartCharacterOffset=12 EndLineNumber=32 EndCharacterOffset=22)" />
+    <Node Id="@87" Category="CodeSchema_Field" Bounds="1041.25718421814,-13.1272442600396,120.606666666667,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="sizingEdge" Icon="Microsoft.VisualStudio.Field.Private" Label="sizingEdge : int" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Teorya.xaml.cs StartLineNumber=35 StartCharacterOffset=12 EndLineNumber=35 EndCharacterOffset=22)" />
+    <Node Id="@88" Category="CodeSchema_Field" Bounds="807.682039361372,-854.47294738504,137.793333333335,26" CodeSchemaProperty_IsInternal="True" CommonLabel="TxbLogin" Icon="Microsoft.VisualStudio.Field.Internal" Label="TxbLogin : TextBox" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Greetings.g.i.cs StartLineNumber=53 StartCharacterOffset=49 EndLineNumber=53 EndCharacterOffset=57)" />
+    <Node Id="@89" Category="CodeSchema_Field" Bounds="1328.61523597596,-919.88408019754,157.896666666667,26" CodeSchemaProperty_IsInternal="True" CommonLabel="TxbPassword" Icon="Microsoft.VisualStudio.Field.Internal" Label="TxbPassword : TextBox" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/obj/Release/Greetings.g.i.cs StartLineNumber=61 StartCharacterOffset=49 EndLineNumber=61 EndCharacterOffset=60)" UseManualLocation="True" />
+    <Node Id="@90" Category="CodeSchema_Field" Bounds="1041.25727780538,-381.126817013946,120.09,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="xRatio" Icon="Microsoft.VisualStudio.Field.Private" Label="xRatio : double" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Result.xaml.cs StartLineNumber=30 StartCharacterOffset=15 EndLineNumber=30 EndCharacterOffset=21)" />
+    <Node Id="@91" Category="CodeSchema_Field" Bounds="1041.25709469991,14.8727557399604,120.09,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="xRatio" Icon="Microsoft.VisualStudio.Field.Private" Label="xRatio : double" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Teorya.xaml.cs StartLineNumber=33 StartCharacterOffset=15 EndLineNumber=33 EndCharacterOffset=21)" />
+    <Node Id="@92" Category="CodeSchema_Field" Bounds="1041.25742428976,-353.126817013946,120.39,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="yRatio" Icon="Microsoft.VisualStudio.Field.Private" Label="yRatio : double" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Result.xaml.cs StartLineNumber=31 StartCharacterOffset=15 EndLineNumber=31 EndCharacterOffset=21)" />
+    <Node Id="@93" Category="CodeSchema_Field" Bounds="1041.25718014913,42.8727557399604,120.39,26" CodeSchemaProperty_IsPrivate="True" CommonLabel="yRatio" Icon="Microsoft.VisualStudio.Field.Private" Label="yRatio : double" SourceLocation="(Assembly=file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/Teorya.xaml.cs StartLineNumber=34 StartCharacterOffset=15 EndLineNumber=34 EndCharacterOffset=21)" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@32" Category="Contains" Bounds="1025.18726866883,-982.747344869279,385.88062213661,256.595001119279" />
+    <Link Source="@10" Target="@38" Category="Contains" Bounds="1006.54152465263,-700.15234375,4.22256972064224,60.7014671288323" />
+    <Link Source="@10" Target="@44" Category="Contains" Bounds="869.265686035156,-991.985961914063,132.077453613281,265.833618164063" />
+    <Link Source="@10" Target="@45" Category="Contains" Bounds="1051.57887369792,-730.340279822339,261.093632829504,14.6161066083682" />
+    <Link Source="@10" Target="@46" Category="Contains" Bounds="1051.57887369792,-704.313137241213,326.038342155586,62.7299888139796" />
+    <Link Source="@10" Target="@52" Category="Contains" Bounds="923.039657926936,-722.706073167119,36.6558824376485,4.23983987603276" />
+    <Link Source="@10" Target="@59" Category="Contains" Bounds="1005.16687734367,-934.435684346976,0.442698660666338,208.283340596976" />
+    <Link Source="@10" Target="@63" Category="Contains" Bounds="1035.24780273438,-700.15234375,128.511596679688,118.220336914063" />
+    <Link Source="@10" Target="@69" Category="Contains" Bounds="881.395751307946,-703.941049627142,78.2997890566378,15.6990905878844" />
+    <Link Source="@10" Target="@78" Category="Contains" Bounds="757.159301757813,-877.0576171875,222.760070800781,150.9052734375" />
+    <Link Source="@10" Target="@79" Category="Contains" Bounds="1044.47344407966,-835.027162158548,325.252942793573,108.874818408548" />
+    <Link Source="@10" Target="@82" Category="Contains" Bounds="1051.57887369792,-780.014444623816,268.926424876437,57.1064081457164" />
+    <Link Source="@10" Target="@85" Category="Contains" Bounds="1051.57887369792,-709.56102769678,263.673076064171,20.6116455839906" />
+    <Link Source="@10" Target="@88" Category="Contains" Bounds="896.035582515111,-822.127090326819,96.5268419314839,95.9747465768194" />
+    <Link Source="@10" Target="@89" Category="Contains" Bounds="1032.60770189324,-889.976299277909,339.877934679692,163.82395552791" />
+    <Link Source="@12" Target="(@1 @2 @11 @29)" Category="Contains" Bounds="1552.76611328125,-378.1279296875,6.5,30" />
+    <Link Source="@12" Target="(@1 @2 @11 @49)" Category="Contains" Bounds="1552.76611328125,-378.1279296875,6.5,30" />
+    <Link Source="@12" Target="(@1 @2 @11 @56)" Category="Contains" Bounds="1552.76611328125,-378.1279296875,6.5,30" />
+    <Link Source="@12" Target="(@1 @2 @11 @66)" Category="Contains" Bounds="1552.76611328125,-378.1279296875,6.5,30" />
+    <Link Source="@12" Target="@19" Category="Contains" />
+    <Link Source="@12" Target="@23" Category="Contains" />
+    <Link Source="@12" Target="@39" Category="Contains" Bounds="1559.26611328125,-434.1279296875,6.5,30" />
+    <Link Source="@14" Target="@28" Category="Contains" Bounds="829.824279785156,349.247344970703,742.509704589844,40.5530090332031" />
+    <Link Source="@14" Target="@33" Category="Contains" Bounds="1188.58136328972,350.885173415742,383.752657980559,38.5074130737112" />
+    <Link Source="@14" Target="@40" Category="Contains" Bounds="1643.96740722656,348.831176757813,955.258178710938,41.0733642578125" />
+    <Link Source="@14" Target="@41" Category="Contains" Bounds="1643.96735460361,353.643246681424,197.780500512314,35.0763041725074" />
+    <Link Source="@14" Target="@42" Category="Contains" Bounds="1643.96735460361,350.321925591536,463.557851436047,39.2255686853711" />
+    <Link Source="@14" Target="@43" Category="Contains" Bounds="1447.57545558639,356.388234232383,124.758565683887,31.6873792521689" />
+    <Link Source="@14" Target="@53" Category="Contains" Bounds="1643.96740722656,349.136108398438,804.169067382813,41.42333984375" />
+    <Link Source="@14" Target="@60" Category="Contains" Bounds="1615.18879440533,360.291173088775,28.0492201160398,51.809369913089" />
+    <Link Source="@14" Target="@70" Category="Contains" Bounds="522.365478515625,348.697967529297,1049.96850585938,41.239990234375" />
+    <Link Source="@16" Target="@3" Category="Contains" Bounds="997.421630859375,657.552185058594,180.124267578125,254.684448242188" />
+    <Link Source="@16" Target="@34" Category="Contains" Bounds="997.945190429688,938.236633300781,189.61083984375,253.082580566406" />
+    <Link Source="@16" Target="@47" Category="Contains" Bounds="992.104064941406,938.236633300781,154.555847167969,313.887145996094" />
+    <Link Source="@16" Target="@54" Category="Contains" Bounds="997.4873046875,938.236633300781,166.505249023438,198.999084472656" />
+    <Link Source="@16" Target="@61" Category="Contains" Bounds="1025.94470214844,925.236633300781,94.8233642578125,0" />
+    <Link Source="@16" Target="@64" Category="Contains" Bounds="1025.94470214844,883.496154785156,124.455322265625,32.2789306640625" />
+    <Link Source="@16" Target="@71" Category="Contains" Bounds="1003.05743408203,938.236633300781,169.211975097656,141.293395996094" />
+    <Link Source="@16" Target="@76" Category="Contains" Bounds="1014.52618408203,938.236633300781,161.657897949219,83.8558349609375" />
+    <Link Source="@16" Target="@83" Category="Contains" Bounds="1025.94470214844,934.698181152344,124.455322265625,32.2789306640625" />
+    <Link Source="@16" Target="@86" Category="Contains" Bounds="1014.52618408203,828.380798339844,161.657897949219,83.8558349609375" />
+    <Link Source="@16" Target="@90" Category="Contains" Bounds="1005.08697509766,772.103637695313,176.356018066406,140.132995605469" />
+    <Link Source="@16" Target="@92" Category="Contains" Bounds="999.4541015625,714.108337402344,174.370483398438,198.128295898438" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=FIO)" Category="Contains" Bounds="1189.82193061695,194.085788543279,54.7764897462632,26.9326364049706" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=Gihub)" Category="Contains" Bounds="1206.95043945313,184.141647338867,560.717163085938,39.3282928466797" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=Id)" Category="Contains" Bounds="1206.90755260295,191.591200034352,142.643561996044,34.4288042391542" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=Login)" Category="Contains" Bounds="1180.150390625,194.085784912109,38.523681640625,83.1056213378906" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=Password)" Category="Contains" Bounds="409.504791259766,183.543441772461,710.308929443359,40.0679016113281" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=ScoreKachestvo)" Category="Contains" Bounds="1062.84130859375,194.085784912109,66.3326416015625,80.3638305664063" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=ScoreKod)" Category="Contains" Bounds="1206.95043945313,183.575973510742,702.14892578125,40.1320190429688" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=ScoreOtrasl)" Category="Contains" Bounds="885.387332230274,188.018769856254,234.426433616344,37.304022421396" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=ScorePoint)" Category="Contains" Bounds="1206.95043251328,187.825525368194,246.652012590192,38.1554566128348" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=ScoreRazmer)" Category="Contains" Bounds="711.253356933594,185.148849487305,408.560363769531,38.1012420654297" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=ScoreSIZ)" Category="Contains" Bounds="554.070556640625,184.115814208984,565.7431640625,39.3455657958984" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=ScoreShablon)" Category="Contains" Bounds="1029.19320198859,193.728628701735,92.2009174595019,27.7622659948746" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=ScoreZone)" Category="Contains" Bounds="1206.95043945313,185.108413696289,413.194580078125,38.1499328613281" />
+    <Link Source="@19" Target="(@1 @17 @18 Member=ScoreZvet)" Category="Contains" Bounds="1147.83437229801,194.085788543279,10.2281633175537,24.9956827319929" />
+    <Link Source="@21" Target="@35" Category="Contains" Bounds="1475.07287597656,1215.93713378906,632.209594726563,41.947265625" />
+    <Link Source="@21" Target="@4" Category="Contains" Bounds="1106.61779785156,1218.31481933594,292.945068359375,40.9776611328125" />
+    <Link Source="@21" Target="@48" Category="Contains" Bounds="1475.01268109338,1224.29444398834,106.584642274654,29.9662175619333" />
+    <Link Source="@21" Target="@55" Category="Contains" Bounds="1475.07287597656,1216.5810546875,520.808715820313,39.789794921875" />
+    <Link Source="@21" Target="@62" Category="Contains" Bounds="1475.07287597656,1215.30383300781,964.714721679688,41.0694580078125" />
+    <Link Source="@21" Target="@65" Category="Contains" Bounds="809.32080078125,1216.24890136719,590.242065429688,39.901611328125" />
+    <Link Source="@21" Target="@72" Category="Contains" Bounds="1376.53614296047,1226.69656471989,49.9805193695499,60.1550580847145" />
+    <Link Source="@21" Target="@77" Category="Contains" Bounds="339.334869384766,1215.17358398438,1060.22799682617,41.4766845703125" />
+    <Link Source="@21" Target="@80" Category="Contains" Bounds="664.536499023438,1215.77319335938,735.0263671875,40.4290771484375" />
+    <Link Source="@21" Target="@81" Category="Contains" Bounds="1475.07287597656,1217.73132324219,335.814086914063,40.452392578125" />
+    <Link Source="@21" Target="@84" Category="Contains" Bounds="1244.92340744019,1221.98538067758,154.639453866135,33.9498867141699" />
+    <Link Source="@21" Target="@87" Category="Contains" Bounds="490.056915283203,1215.40881347656,909.505950927734,41.2462158203125" />
+    <Link Source="@21" Target="@91" Category="Contains" Bounds="953.269104003906,1216.98950195313,446.293762207031,38.925048828125" />
+    <Link Source="@21" Target="@93" Category="Contains" Bounds="1475.07287597656,1215.06823730469,1152.47985839844,41.8701171875" />
+    <Link Source="@23" Target="(@1 @17 @22 @49)" Category="Contains" Bounds="1832.71194676981,182.864727905273,50.234997426883,25.8785425879476" />
+    <Link Source="@23" Target="(@1 @17 @22 Member=(Name=OnModelCreating OverloadingParameters=[(@24 Namespace=System.Data.Entity Type=DbModelBuilder)]))" Category="Contains" Bounds="1811.64929199219,182.864730834961,74.7379150390625,83.2572479248047" />
+    <Link Source="@23" Target="(@1 @17 @22 Member=Students)" Category="Contains" Bounds="1745.00842285156,182.864730834961,72.41943359375,83.9947357177734" />
+    <Link Source="@23" Target="(@1 @17 @22 Member=sysdiagrams)" Category="Contains" Bounds="1732.00849635961,182.864727905273,50.2333721712305,25.8784132283976" />
+    <Link Source="@39" Target="@10" Category="Contains" />
+    <Link Source="@39" Target="@32" Category="Contains" />
+    <Link Source="@39" Target="@38" Category="Contains" />
+    <Link Source="@39" Target="@44" Category="Contains" />
+    <Link Source="@39" Target="@45" Category="Contains" />
+    <Link Source="@39" Target="@46" Category="Contains" />
+    <Link Source="@39" Target="@52" Category="Contains" />
+    <Link Source="@39" Target="@59" Category="Contains" />
+    <Link Source="@39" Target="@69" Category="Contains" />
+    <Link Source="@39" Target="@78" Category="Contains" />
+    <Link Source="@39" Target="@79" Category="Contains" />
+    <Link Source="@39" Target="@82" Category="Contains" />
+    <Link Source="@39" Target="@85" Category="Contains" />
+    <Link Source="@39" Target="@88" Category="Contains" />
+    <Link Source="@39" Target="@89" Category="Contains" />
+    <Link Source="@40" Target="@30" Category="Contains" />
+    <Link Source="@40" Target="@50" Category="Contains" />
+    <Link Source="@40" Target="@57" Category="Contains" />
+    <Link Source="@40" Target="@6" Category="Contains" />
+    <Link Source="@40" Target="@67" Category="Contains" />
+    <Link Source="@40" Target="@74" Category="Contains" />
+    <Link Source="@41" Target="@31" Category="Contains" />
+    <Link Source="@41" Target="@51" Category="Contains" />
+    <Link Source="@41" Target="@58" Category="Contains" />
+    <Link Source="@41" Target="@68" Category="Contains" />
+    <Link Source="@41" Target="@75" Category="Contains" />
+    <Link Source="@41" Target="@8" Category="Contains" />
+    <Link Source="@42" Target="@16" Category="Contains" />
+    <Link Source="@42" Target="@3" Category="Contains" />
+    <Link Source="@42" Target="@34" Category="Contains" />
+    <Link Source="@42" Target="@47" Category="Contains" />
+    <Link Source="@42" Target="@54" Category="Contains" />
+    <Link Source="@42" Target="@61" Category="Contains" />
+    <Link Source="@42" Target="@64" Category="Contains" />
+    <Link Source="@42" Target="@71" Category="Contains" />
+    <Link Source="@42" Target="@76" Category="Contains" />
+    <Link Source="@42" Target="@83" Category="Contains" />
+    <Link Source="@42" Target="@86" Category="Contains" />
+    <Link Source="@42" Target="@90" Category="Contains" />
+    <Link Source="@42" Target="@92" Category="Contains" />
+    <Link Source="@43" Target="@21" Category="Contains" />
+    <Link Source="@43" Target="@35" Category="Contains" />
+    <Link Source="@43" Target="@4" Category="Contains" />
+    <Link Source="@43" Target="@48" Category="Contains" />
+    <Link Source="@43" Target="@55" Category="Contains" />
+    <Link Source="@43" Target="@62" Category="Contains" />
+    <Link Source="@43" Target="@65" Category="Contains" />
+    <Link Source="@43" Target="@72" Category="Contains" />
+    <Link Source="@43" Target="@77" Category="Contains" />
+    <Link Source="@43" Target="@80" Category="Contains" />
+    <Link Source="@43" Target="@81" Category="Contains" />
+    <Link Source="@43" Target="@84" Category="Contains" />
+    <Link Source="@43" Target="@87" Category="Contains" />
+    <Link Source="@43" Target="@91" Category="Contains" />
+    <Link Source="@43" Target="@93" Category="Contains" />
+    <Link Source="@6" Target="@30" Category="Contains" Bounds="1617.16957298944,326.265612934302,91.2270301272856,27.6762379534569" />
+    <Link Source="@6" Target="@50" Category="Contains" Bounds="1793.90807215008,322.9747433293,159.632995736356,34.4792867109407" />
+    <Link Source="@6" Target="@57" Category="Contains" Bounds="1394.46380559899,319.052628257821,312.217599884424,39.3586847248508" />
+    <Link Source="@6" Target="@67" Category="Contains" Bounds="1770.91134358804,326.554656852295,39.9638788486614,25.1996112257944" />
+    <Link Source="@6" Target="@74" Category="Contains" Bounds="1793.90807215008,319.546182397076,283.973933853907,39.0118559783883" />
+    <Link Source="@63" Target="@14" Category="Contains" />
+    <Link Source="@63" Target="@28" Category="Contains" />
+    <Link Source="@63" Target="@33" Category="Contains" />
+    <Link Source="@63" Target="@41" Category="Contains" />
+    <Link Source="@63" Target="@42" Category="Contains" />
+    <Link Source="@63" Target="@43" Category="Contains" />
+    <Link Source="@63" Target="@53" Category="Contains" />
+    <Link Source="@63" Target="@60" Category="Contains" />
+    <Link Source="@63" Target="@70" Category="Contains" />
+    <Link Source="@8" Target="@31" Category="Contains" Bounds="1523.91509152701,464.215783136228,119.44112464581,30.5053997899457" />
+    <Link Source="@8" Target="@51" Category="Contains" Bounds="1523.92700195313,458.240539550781,353.697265625,37.7525634765625" />
+    <Link Source="@8" Target="@58" Category="Contains" Bounds="1142.99296727675,459.196506916908,300.507405613886,39.2189331707885" />
+    <Link Source="@8" Target="@68" Category="Contains" Bounds="1445.7853744885,466.948303368138,27.3889802039716,33.7835531519693" />
+    <Link Source="@8" Target="@75" Category="Contains" Bounds="1301.68694479781,463.010744465944,141.813428092827,31.9589482502291" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="Класс" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Классы" />
+    <Category Id="CodeSchema_Field" Label="Поле" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Поля" />
+    <Category Id="CodeSchema_Member" Label="Член" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Члены" />
+    <Category Id="CodeSchema_Method" Label="Метод" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Методы" />
+    <Category Id="CodeSchema_Property" Label="Свойство" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Property" NavigationActionLabel="Свойства" />
+    <Category Id="CodeSchema_Struct" Label="Структура" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Struct" NavigationActionLabel="Структуры" />
+    <Category Id="CodeSchema_Type" Label="Тип" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Типы" />
+    <Category Id="Contains" Label="Содержит" Description="Указывает, содержит ли источник связи целевой объект" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Содержится в" IsContainment="True" OutgoingActionLabel="Содержит" />
+  </Categories>
+  <Properties>
+    <Property Id="Aggregator" DataType="Microsoft.VisualStudio.GraphModel.AggregatorKind" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Является конструктором" Description="Флаг, указывающий, что метод является конструктором" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsFinal" Label="Является Final" Description="Флаг, указывающий, что член является Final, и не допускает наследования" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="Является Internal" Description="Флаг, указывающий, что метод является Internal" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Является Private" Description="Флаг, указывающий на область видимости Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsProtected" Label="Является Protected" Description="Флаг, указывающий на область видимости Protected" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Является Public" Description="Флаг, указывающий на область видимости Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="Является виртуальным" Description="Флаг, указывающий, что метод можно переопределить" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="ContainsChildren" Label="Содержит дочерние элементы" DataType="System.Boolean" Aggregator="Or" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Group" Label="Группа" Description="Отображать узел как группу" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="Icon" Label="Значок" Description="Значок" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsOverloaded" Label="IsOverloaded" Description="IsOverloaded" DataType="System.Boolean" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка аннотируемого объекта" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="LayoutSettings" DataType="Microsoft.VisualStudio.Diagrams.View.GroupLayoutStyle" />
+    <Property Id="MergableData" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Номер начальной строки" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+    <Name Id="Member" Label="Член" ValueType="System.Object" />
+    <Name Id="Name" Label="Имя" ValueType="System.String" />
+    <Name Id="Namespace" Label="Пространство имен" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Параметр" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParamKind" Label="Вид параметра" ValueType="Microsoft.VisualStudio.GraphModel.CodeSchema.ParamKind" />
+    <Name Id="ParentType" Label="Родительский тип" ValueType="System.Object" />
+    <Name Id="Type" Label="Тип" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(5d4a6968-fe3a-436d-9bae-37b7623f1043.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=УМК_Цифра" />
+    <Alias n="3" Id="(@1 @2 Type=(Name=WINDOWPOS ParentType=Result))" />
+    <Alias n="4" Id="(@1 @2 Type=(Name=WINDOWPOS ParentType=Teorya))" />
+    <Alias n="5" Id="Type=Algoritm" />
+    <Alias n="6" Id="(@1 @2 @5)" />
+    <Alias n="7" Id="Type=Control" />
+    <Alias n="8" Id="(@1 @2 @7)" />
+    <Alias n="9" Id="Type=Greetings" />
+    <Alias n="10" Id="(@1 @2 @9)" />
+    <Alias n="11" Id="Type=MainWindow" />
+    <Alias n="12" Id="(@1 @2 @11)" />
+    <Alias n="13" Id="Type=Menu" />
+    <Alias n="14" Id="(@1 @2 @13)" />
+    <Alias n="15" Id="Type=Result" />
+    <Alias n="16" Id="(@1 @2 @15)" />
+    <Alias n="17" Id="Namespace=УМК_Цифра.Models" />
+    <Alias n="18" Id="Type=Students" />
+    <Alias n="19" Id="(@1 @17 @18)" />
+    <Alias n="20" Id="Type=Teorya" />
+    <Alias n="21" Id="(@1 @2 @20)" />
+    <Alias n="22" Id="Type=YMK_ZhifraEntities" />
+    <Alias n="23" Id="(@1 @17 @22)" />
+    <Alias n="24" Uri="Assembly=$(VsSolutionUri)/packages/EntityFramework.6.2.0/lib/net45/EntityFramework.dll" />
+    <Alias n="25" Uri="Assembly=$(ProgramFilesUri) (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/mscorlib.dll" />
+    <Alias n="26" Id="Namespace=System" />
+    <Alias n="27" Uri="Assembly=$(ProgramFilesUri) (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/System.dll" />
+    <Alias n="28" Id="(@1 @2 @13 Member=(Name=MainWindow_Closing OverloadingParameters=[(@25 @26 Type=Object),(@27 Namespace=System.ComponentModel Type=CancelEventArgs)]))" />
+    <Alias n="29" Id="Member=(Name=System.Windows.Markup.IComponentConnector.Connect OverloadingParameters=[(@25 @26 Type=Int32),(@25 @26 Type=Object)])" />
+    <Alias n="30" Id="(@1 @2 @5 @29)" />
+    <Alias n="31" Id="(@1 @2 @7 @29)" />
+    <Alias n="32" Id="(@1 @2 @9 @29)" />
+    <Alias n="33" Id="(@1 @2 @13 @29)" />
+    <Alias n="34" Id="(@1 @2 @15 @29)" />
+    <Alias n="35" Id="(@1 @2 @20 @29)" />
+    <Alias n="36" Uri="Assembly=$(ProgramFilesUri) (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.7.2/PresentationCore.dll" />
+    <Alias n="37" Id="OverloadingParameters=[(@25 @26 Type=Object),(@36 Namespace=System.Windows Type=RoutedEventArgs)]" />
+    <Alias n="38" Id="(@1 @2 @9 Member=(Name=BtnInLogin_Click @37))" />
+    <Alias n="39" Id="(@1 @2 @11 Member=(Name=Button_Click @37))" />
+    <Alias n="40" Id="(@1 @2 @13 Member=(Name=Button_Click_Algoritm @37))" />
+    <Alias n="41" Id="(@1 @2 @13 Member=(Name=Button_Click_Control @37))" />
+    <Alias n="42" Id="(@1 @2 @13 Member=(Name=Button_Click_Result @37))" />
+    <Alias n="43" Id="(@1 @2 @13 Member=(Name=Button_Click_Teorya @37))" />
+    <Alias n="44" Id="(@1 @2 @9 Member=(Name=myGif_MediaEnded @37))" />
+    <Alias n="45" Id="(@1 @2 @9 Member=(Name=SeekPass_Click @37))" />
+    <Alias n="46" Id="(@1 @2 @9 Member=(Name=ShowPass_Click @37))" />
+    <Alias n="47" Id="(@1 @2 @15 Member=(Name=DragHook OverloadingParameters=[(@25 @26 Type=IntPtr),(@25 @26 Type=Int32),(@25 @26 Type=IntPtr),(@25 @26 Type=IntPtr),(@25 @26 Type=Boolean ParamKind=Ref)]))" />
+    <Alias n="48" Id="(@1 @2 @20 Member=(Name=DragHook OverloadingParameters=[(@25 @26 Type=IntPtr),(@25 @26 Type=Int32),(@25 @26 Type=IntPtr),(@25 @26 Type=IntPtr),(@25 @26 Type=Boolean ParamKind=Ref)]))" />
+    <Alias n="49" Id="Member=.ctor" />
+    <Alias n="50" Id="(@1 @2 @5 @49)" />
+    <Alias n="51" Id="(@1 @2 @7 @49)" />
+    <Alias n="52" Id="(@1 @2 @9 @49)" />
+    <Alias n="53" Id="(@1 @2 @13 @49)" />
+    <Alias n="54" Id="(@1 @2 @15 @49)" />
+    <Alias n="55" Id="(@1 @2 @20 @49)" />
+    <Alias n="56" Id="Member=_contentLoaded" />
+    <Alias n="57" Id="(@1 @2 @5 @56)" />
+    <Alias n="58" Id="(@1 @2 @7 @56)" />
+    <Alias n="59" Id="(@1 @2 @9 @56)" />
+    <Alias n="60" Id="(@1 @2 @13 @56)" />
+    <Alias n="61" Id="(@1 @2 @15 @56)" />
+    <Alias n="62" Id="(@1 @2 @20 @56)" />
+    <Alias n="63" Id="(@1 @2 @9 Member=BtnInLogin)" />
+    <Alias n="64" Id="(@1 @2 @15 Member=hWnd)" />
+    <Alias n="65" Id="(@1 @2 @20 Member=hWnd)" />
+    <Alias n="66" Id="Member=InitializeComponent" />
+    <Alias n="67" Id="(@1 @2 @5 @66)" />
+    <Alias n="68" Id="(@1 @2 @7 @66)" />
+    <Alias n="69" Id="(@1 @2 @9 @66)" />
+    <Alias n="70" Id="(@1 @2 @13 @66)" />
+    <Alias n="71" Id="(@1 @2 @15 @66)" />
+    <Alias n="72" Id="(@1 @2 @20 @66)" />
+    <Alias n="73" Id="Member=MainFrame" />
+    <Alias n="74" Id="(@1 @2 @5 @73)" />
+    <Alias n="75" Id="(@1 @2 @7 @73)" />
+    <Alias n="76" Id="(@1 @2 @15 @73)" />
+    <Alias n="77" Id="(@1 @2 @20 @73)" />
+    <Alias n="78" Id="(@1 @2 @9 Member=myGif)" />
+    <Alias n="79" Id="(@1 @2 @9 Member=PsbPassword)" />
+    <Alias n="80" Id="(@1 @2 @20 Member=screenhight)" />
+    <Alias n="81" Id="(@1 @2 @20 Member=screenWidth)" />
+    <Alias n="82" Id="(@1 @2 @9 Member=SeekPass)" />
+    <Alias n="83" Id="(@1 @2 @15 Member=Show)" />
+    <Alias n="84" Id="(@1 @2 @20 Member=Show)" />
+    <Alias n="85" Id="(@1 @2 @9 Member=ShowPass)" />
+    <Alias n="86" Id="(@1 @2 @15 Member=sizingEdge)" />
+    <Alias n="87" Id="(@1 @2 @20 Member=sizingEdge)" />
+    <Alias n="88" Id="(@1 @2 @9 Member=TxbLogin)" />
+    <Alias n="89" Id="(@1 @2 @9 Member=TxbPassword)" />
+    <Alias n="90" Id="(@1 @2 @15 Member=xRatio)" />
+    <Alias n="91" Id="(@1 @2 @20 Member=xRatio)" />
+    <Alias n="92" Id="(@1 @2 @15 Member=yRatio)" />
+    <Alias n="93" Id="(@1 @2 @20 Member=yRatio)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="5d4a6968-fe3a-436d-9bae-37b7623f1043.OutputPath" Value="D:\Users\User\MyPrograms\CVonProduct\УМК_Цифра\bin\Release\УМК_Цифра.exe" />
+    <Path Id="5d4a6968-fe3a-436d-9bae-37b7623f1043.OutputPathUri" Value="file:///D:/Users/User/MyPrograms/CVonProduct/УМК_Цифра/bin/Release/УМК_Цифра.exe" />
+    <Path Id="ProgramFilesUri" Value="file:///C:/Program Files" />
+    <Path Id="VsSolutionUri" Value="file:///D:/Users/User/MyPrograms/CVonProduct" />
+  </Paths>
+</DirectedGraph>

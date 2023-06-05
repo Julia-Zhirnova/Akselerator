@@ -10,21 +10,23 @@
 
     <Grid>
         <FlowDocumentReader ViewingMode="TwoPage"  IsPageViewEnabled="False" FontSize="10">
-            <FlowDocument   >
-                <Paragraph TextAlignment="Left" FontFamily="Segoe UI Semibold" >
-                    <TextBlock Margin="0 10 0 10" FontWeight="SemiBold" FontSize="36" FontFamily="Segoe UI Semibold">Средства индивидуальной защиты</TextBlock>
+            <FlowDocument>
+                <Paragraph TextAlignment="Left" FontFamily="Segoe UI" FontSize="18">
+                    <TextBlock Margin="0 20 0 20" FontWeight="SemiBold" FontSize="36" FontFamily="Segoe UI Semibold">Средства индивидуальной защиты</TextBlock>
+                    <LineBreak />
                     Сотрудники обрабатывающей промышленности работают в чрезвычайно опасных условиях.
                     Несоблюдение стандартов безопасности и защиты может привести к серьезным травмам и даже летальному исходу,
-                    что должно учитываться при разработке Вашего приложения. 
+                    что должно учитываться при разработке Вашего приложения.
+                    <LineBreak />
                     <Hyperlink NavigateUri="https://drive.google.com/file/d/1mr_lv2RbU6VDKPUPb-WJCgnuM5BDKP2M/view?usp=sharing">
                         Что относится к СИЗ: классификация и особенности использования</Hyperlink>                    
-                    <TextBlock Margin="0 10 0 10" FontWeight="SemiBold" FontSize="36" FontFamily="Segoe UI Semibold">Обучение модели компьютерного зрения</TextBlock>
+                    <TextBlock Margin="0 20 0 20" FontWeight="SemiBold" FontSize="36" FontFamily="Segoe UI Semibold">Обучение модели компьютерного зрения</TextBlock>
                     <LineBreak /> Это процесс, с помощью которого компьютер учится распознавать определенные объекты на изображениях, другими словами способ автоматизации человеческого зрения.
                     Roboflow Train - это автоматизированное решение для машинного обучения, которое можно использовать для преобразования любого набора данных
                     в обученную модель компьютерного зрения, готовую к внедрению в любую систему. Для обучения модели нет необходимости в написании программного кода. 
                     Кроме этого, для подготовки датасета Roboflow предоставляет платформу для аннотирования изображений. Однако количество бесплатных применений модели ограничено.
-                    <Image Source="/Resources/теория/roboflow.jpg" Stretch="Uniform"/>
-                    <TextBlock Margin="0 10 0 10" FontWeight="SemiBold" FontSize="36" FontFamily="Segoe UI Semibold">Cистема 5C</TextBlock>
+                    <Image Margin="0 10 0 10" Source="/Resources/теория/roboflow.jpg" Stretch="Uniform"/>
+                    <TextBlock Margin="0 20 0 20" FontWeight="SemiBold" FontSize="36" FontFamily="Segoe UI Semibold">Cистема 5C</TextBlock>
                     <LineBreak /> Cедьмой принцип менеджмента Toyota: используй визуальный контроль, чтобы ни одна проблема не была не замеченной.
                     5С является одним из ключевых элементов Производственной системы Тойоты (TPS), более известной как «Бережливое Производство» или Lean Production.
                     <Image Source="/Resources/теория/5c.jpg" Stretch="Uniform"/>
